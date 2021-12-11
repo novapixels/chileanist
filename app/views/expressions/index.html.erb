@@ -1,0 +1,5 @@
+<h1>All Chilean expressions page</h1>
+<% @expressions.each do |expression| %>
+<h3> <%= link_to expression.sentence, expression_path(expression) %> </h3>
+<p><%= expression.definition %></p>
+<% end %>
