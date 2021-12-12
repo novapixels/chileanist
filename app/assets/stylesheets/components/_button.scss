@@ -1,0 +1,10 @@
+.btn-custom {
+  border-radius: 5px;
+  background-color: $pale-yellow;
+  color: $dark-green;
+}
+.btn-custom:hover {
+  background-color: $dark-grey;
+  color: $pale-yellow;
+  border: solid 2px $pale-yellow;
+}
