@@ -1,6 +1,7 @@
 class ExpressionsController < ApplicationController
   def index
     @expressions = Expression.all
+    @expressionsample = @expressions.sample
   end
 
   def show
