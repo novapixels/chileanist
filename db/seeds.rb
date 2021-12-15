@@ -23,4 +23,4 @@ csv.each do |row|
     points: "#{row['Point']}"
   )
 end
-puts 'All expressions created'
+puts 'All expressions created with points'
