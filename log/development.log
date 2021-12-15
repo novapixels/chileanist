@@ -6511,3 +6511,1688 @@ Processing by ExpressionsController#index as HTML
 Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 1.3ms | Allocations: 13766)
 
 
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:45 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 3.2ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 11555)
+Completed 200 OK in 36ms (Views: 26.4ms | ActiveRecord: 1.7ms | Allocations: 13776)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:45 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 11621)
+Completed 200 OK in 33ms (Views: 24.3ms | ActiveRecord: 1.0ms | Allocations: 13842)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:46 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 11623)
+Completed 200 OK in 28ms (Views: 20.3ms | ActiveRecord: 1.5ms | Allocations: 13844)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:46 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 10235)
+Completed 200 OK in 29ms (Views: 20.8ms | ActiveRecord: 1.0ms | Allocations: 13851)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:47 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 11642)
+Completed 200 OK in 26ms (Views: 18.8ms | ActiveRecord: 1.2ms | Allocations: 13863)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:47 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 10473)
+Completed 200 OK in 28ms (Views: 20.8ms | ActiveRecord: 1.1ms | Allocations: 13839)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:47 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 11525)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 1.0ms | Allocations: 13788)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:48 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 10403)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 1.0ms | Allocations: 13770)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:48 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 11546)
+Completed 200 OK in 27ms (Views: 19.8ms | ActiveRecord: 1.3ms | Allocations: 13767)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:30:48 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 11594)
+Completed 200 OK in 28ms (Views: 21.5ms | ActiveRecord: 0.9ms | Allocations: 13853)
+
+
+Started GET "/" for ::1 at 2021-12-13 21:30:52 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 195)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 10340)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 11214)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:04 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10848)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 1.0ms | Allocations: 13070)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:05 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 10817)
+Completed 200 OK in 29ms (Views: 21.2ms | ActiveRecord: 1.4ms | Allocations: 13069)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:06 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 10220)
+Completed 200 OK in 28ms (Views: 20.8ms | ActiveRecord: 1.1ms | Allocations: 12441)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:06 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10155)
+Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 1.3ms | Allocations: 12376)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:06 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 11540)
+Completed 200 OK in 26ms (Views: 19.7ms | ActiveRecord: 1.2ms | Allocations: 13760)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:06 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 11536)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 0.9ms | Allocations: 13757)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:07 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 11602)
+Completed 200 OK in 27ms (Views: 20.7ms | ActiveRecord: 0.9ms | Allocations: 13862)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:08 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 11630)
+Completed 200 OK in 26ms (Views: 19.4ms | ActiveRecord: 1.0ms | Allocations: 13851)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:08 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 11623)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 1.0ms | Allocations: 13844)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:08 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 10485)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 1.0ms | Allocations: 13851)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:09 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 11625)
+Completed 200 OK in 27ms (Views: 19.3ms | ActiveRecord: 1.4ms | Allocations: 13846)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:10 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 11546)
+Completed 200 OK in 27ms (Views: 19.0ms | ActiveRecord: 1.6ms | Allocations: 13767)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:10 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 11553)
+Completed 200 OK in 28ms (Views: 20.9ms | ActiveRecord: 1.4ms | Allocations: 13774)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:10 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 11626)
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 1.3ms | Allocations: 13847)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:11 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 11626)
+Completed 200 OK in 26ms (Views: 18.5ms | ActiveRecord: 1.8ms | Allocations: 13847)
+
+
+Started GET "/expressions" for ::1 at 2021-12-13 21:31:12 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (2.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 11616)
+Completed 200 OK in 27ms (Views: 18.0ms | ActiveRecord: 2.6ms | Allocations: 13837)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:35 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (3.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.6ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 10232)
+Completed 200 OK in 139ms (Views: 37.4ms | ActiveRecord: 37.4ms | Allocations: 15498)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:37 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 10230)
+Completed 200 OK in 28ms (Views: 19.9ms | ActiveRecord: 1.3ms | Allocations: 12451)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:38 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 10221)
+Completed 200 OK in 30ms (Views: 20.4ms | ActiveRecord: 1.0ms | Allocations: 12442)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:39 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 10155)
+Completed 200 OK in 26ms (Views: 19.1ms | ActiveRecord: 1.0ms | Allocations: 12376)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:40 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 10156)
+Completed 200 OK in 38ms (Views: 29.6ms | ActiveRecord: 1.6ms | Allocations: 12377)
+
+
+Started GET "/expressions" for ::1 at 2021-12-14 11:46:42 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 10231)
+Completed 200 OK in 27ms (Views: 18.2ms | ActiveRecord: 1.3ms | Allocations: 12452)
+
+
+Started GET "/" for 127.0.0.1 at 2021-12-14 13:53:51 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 10276)
+Completed 200 OK in 34ms (Views: 30.1ms | Allocations: 10600)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(918152529321631380)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddSecondoptionToExpressions (20211215135533)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.5ms)[0m  [1m[35mALTER TABLE "expressions" ADD "secondoption" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211215135533"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPointsToExpressions (20211215135827)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "expressions" ADD "points" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20211215135827"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(918152529321631380)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mExpression Load (2.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (6.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 108]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 109]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 110]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 111]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 112]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 113]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 114]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 115]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 116]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 117]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 118]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 119]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 120]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 121]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 122]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 123]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 124]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 125]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 126]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (2.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 127]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 128]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 129]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 130]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 131]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 132]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 133]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 134]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 135]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 136]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 137]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 138]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 139]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 140]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 141]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 142]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 143]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 144]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 145]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 146]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 147]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 148]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 149]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 150]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 151]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 152]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 153]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 154]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 155]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 156]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 157]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 158]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 159]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 160]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 161]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 162]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 163]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 164]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 165]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 166]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 167]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.4ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 168]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 169]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 170]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 171]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 172]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 173]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.4ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 174]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 175]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 176]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 177]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 178]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 179]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 180]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 181]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 182]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 183]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 184]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 185]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 186]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 187]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 188]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 189]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 190]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 191]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 192]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 193]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 194]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 195]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 196]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 197]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 198]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 199]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 200]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 201]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 202]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.4ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 203]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 204]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 205]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 206]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 207]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 208]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 209]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 210]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (1.6ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Al tiro"], ["definition", "En seguida"], ["created_at", "2021-12-15 15:40:43.725401"], ["updated_at", "2021-12-15 15:40:43.725401"], ["secondoption", "Casarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Arriba de la pelota"], ["definition", "Borracho o ebrio"], ["created_at", "2021-12-15 15:40:43.729044"], ["updated_at", "2021-12-15 15:40:43.729044"], ["secondoption", "La pareja controladora"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Quedar raja"], ["definition", "Muy ebrio o borracho"], ["created_at", "2021-12-15 15:40:43.730477"], ["updated_at", "2021-12-15 15:40:43.730477"], ["secondoption", "Estar preso en la cárcel"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar con la caña"], ["definition", "Tener resaca"], ["created_at", "2021-12-15 15:40:43.731831"], ["updated_at", "2021-12-15 15:40:43.731831"], ["secondoption", "Quitarle el trabajo a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Yendo en la profundidad"], ["definition", "Filosofar o meditar profundamente sobre los vaivenes de la vida"], ["created_at", "2021-12-15 15:40:43.733261"], ["updated_at", "2021-12-15 15:40:43.733261"], ["secondoption", "Burlarse de alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Apretar cachete"], ["definition", "Correr apurado"], ["created_at", "2021-12-15 15:40:43.734617"], ["updated_at", "2021-12-15 15:40:43.734617"], ["secondoption", "Es o está difícil"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacerla corta"], ["definition", "Abreviar un trámite o resumir una historia muy larga, demorarse poco"], ["created_at", "2021-12-15 15:40:43.736024"], ["updated_at", "2021-12-15 15:40:43.736024"], ["secondoption", "Algo que da flojera, desgano o pereza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tener olor a gladiolos"], ["definition", "Estar a punto de morir"], ["created_at", "2021-12-15 15:40:43.737767"], ["updated_at", "2021-12-15 15:40:43.737767"], ["secondoption", "Estar angustiados o tristes"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pellizcar la uva"], ["definition", "intención de quitarle el novio o novia a alguien"], ["created_at", "2021-12-15 15:40:43.739129"], ["updated_at", "2021-12-15 15:40:43.739129"], ["secondoption", "Ir de fiesta"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mojarse el potito"], ["definition", "Atreverse, decir algo osado"], ["created_at", "2021-12-15 15:40:43.740551"], ["updated_at", "2021-12-15 15:40:43.740551"], ["secondoption", "Ser poco desprendido o que no le gusta compartir sus cosas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Andar con el Kino acumulado"], ["definition", "No tener relaciones sexuales en un tiempo considerable"], ["created_at", "2021-12-15 15:40:43.741917"], ["updated_at", "2021-12-15 15:40:43.741917"], ["secondoption", "Provocar celos o envidia"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Para chuparse los bigotes"], ["definition", "La comida estaba muy rica"], ["created_at", "2021-12-15 15:40:43.743241"], ["updated_at", "2021-12-15 15:40:43.743241"], ["secondoption", "No le interesa o no le importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pisar el palito"], ["definition", "Casarse"], ["created_at", "2021-12-15 15:40:43.744579"], ["updated_at", "2021-12-15 15:40:43.744579"], ["secondoption", "Manosear a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "La mano que aprieta"], ["definition", "La pareja controladora"], ["created_at", "2021-12-15 15:40:43.746114"], ["updated_at", "2021-12-15 15:40:43.746114"], ["secondoption", "Armar un escándalo, un desastre o un mal entendido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar en cana o Canadá"], ["definition", "Estar preso en la cárcel"], ["created_at", "2021-12-15 15:40:43.748054"], ["updated_at", "2021-12-15 15:40:43.748054"], ["secondoption", "Ser egocéntrico, vanagloriarse o sentirse orgulloso de algo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Aserruchar el piso"], ["definition", "Quitarle el trabajo a alguien"], ["created_at", "2021-12-15 15:40:43.754989"], ["updated_at", "2021-12-15 15:40:43.754989"], ["secondoption", "Estar en un lugar perdiendo el tiempo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Subir al columpio"], ["definition", "Burlarse de alguien"], ["created_at", "2021-12-15 15:40:43.756669"], ["updated_at", "2021-12-15 15:40:43.756669"], ["secondoption", "Cambiar de opinión según convenga"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Está peluo"], ["definition", "Es o está difícil"], ["created_at", "2021-12-15 15:40:43.758028"], ["updated_at", "2021-12-15 15:40:43.758028"], ["secondoption", "Decir o hacer cosas sin sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar lata / paja"], ["definition", "Algo que da flojera, desgano o pereza"], ["created_at", "2021-12-15 15:40:43.759242"], ["updated_at", "2021-12-15 15:40:43.759242"], ["secondoption", "Quedó embarazada inesperadamente"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar achacado"], ["definition", "Estar angustiados o tristes"], ["created_at", "2021-12-15 15:40:43.760594"], ["updated_at", "2021-12-15 15:40:43.760594"], ["secondoption", "No es muy riguroso o rigurosa para elegir parejas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ir a carretear"], ["definition", "Ir de fiesta"], ["created_at", "2021-12-15 15:40:43.761887"], ["updated_at", "2021-12-15 15:40:43.761887"], ["secondoption", "Tiene una energía infinita"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser apretado"], ["definition", "Ser poco desprendido o que no le gusta compartir sus cosas"], ["created_at", "2021-12-15 15:40:43.763096"], ["updated_at", "2021-12-15 15:40:43.763096"], ["secondoption", "Estar haciendo o diciendo una locura o algo sin sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar pica"], ["definition", "Provocar celos o envidia"], ["created_at", "2021-12-15 15:40:43.764421"], ["updated_at", "2021-12-15 15:40:43.764421"], ["secondoption", "Poner atención a alguna situación"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "No estar ni ahí"], ["definition", "No le interesa o no le importa"], ["created_at", "2021-12-15 15:40:43.765762"], ["updated_at", "2021-12-15 15:40:43.765762"], ["secondoption", "Persona que no quiere gastar dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Correr mano"], ["definition", "Manosear a alguien"], ["created_at", "2021-12-15 15:40:43.767035"], ["updated_at", "2021-12-15 15:40:43.767035"], ["secondoption", "Cuando alguien se mete en una conversación en la que no estaba incluido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Quedar la crema / Dejar la cagada / Dejar la escoba"], ["definition", "Armar un escándalo, un desastre o un mal entendido"], ["created_at", "2021-12-15 15:40:43.768552"], ["updated_at", "2021-12-15 15:40:43.768552"], ["secondoption", "Cuando una persona se siente identificada por una indirecta"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Creerse la muerte"], ["definition", "Ser egocéntrico, vanagloriarse o sentirse orgulloso de algo"], ["created_at", "2021-12-15 15:40:43.769925"], ["updated_at", "2021-12-15 15:40:43.769925"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar la hora"], ["definition", "Estar en un lugar perdiendo el tiempo"], ["created_at", "2021-12-15 15:40:43.771181"], ["updated_at", "2021-12-15 15:40:43.771181"], ["secondoption", "Se te borra la memoria cuando bebes"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Darse vuelta la chaqueta"], ["definition", "Cambiar de opinión según convenga"], ["created_at", "2021-12-15 15:40:43.772616"], ["updated_at", "2021-12-15 15:40:43.772616"], ["secondoption", "Quedar inconsciente de tanto beber"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar jugo"], ["definition", "Decir o hacer cosas sin sentido"], ["created_at", "2021-12-15 15:40:43.774043"], ["updated_at", "2021-12-15 15:40:43.774043"], ["secondoption", "No importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Salió con un domingo siete"], ["definition", "Quedó embarazada inesperadamente"], ["created_at", "2021-12-15 15:40:43.775646"], ["updated_at", "2021-12-15 15:40:43.775646"], ["secondoption", "Conocer, evaluar a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Todas las micros le sirven"], ["definition", "No es muy riguroso o rigurosa para elegir parejas"], ["created_at", "2021-12-15 15:40:43.777057"], ["updated_at", "2021-12-15 15:40:43.777057"], ["secondoption", "Estar muy borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Más prendido que tele de conserje"], ["definition", "Tiene una energía infinita"], ["created_at", "2021-12-15 15:40:43.778482"], ["updated_at", "2021-12-15 15:40:43.778482"], ["secondoption", "Jamás o en un futuro poco probable"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Rallar la papa o peinar la muñeca"], ["definition", "Estar haciendo o diciendo una locura o algo sin sentido"], ["created_at", "2021-12-15 15:40:43.779882"], ["updated_at", "2021-12-15 15:40:43.779882"], ["secondoption", "Que no invita nunca"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ojo al charqui"], ["definition", "Poner atención a alguna situación"], ["created_at", "2021-12-15 15:40:43.781334"], ["updated_at", "2021-12-15 15:40:43.781334"], ["secondoption", "Que cuenta todo, no guarda secretos"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mano de guagua"], ["definition", "Persona que no quiere gastar dinero"], ["created_at", "2021-12-15 15:40:43.782801"], ["updated_at", "2021-12-15 15:40:43.782801"], ["secondoption", "Beber mucho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Saltó lejos el maní"], ["definition", "Cuando alguien se mete en una conversación en la que no estaba incluido"], ["created_at", "2021-12-15 15:40:43.784479"], ["updated_at", "2021-12-15 15:40:43.784479"], ["secondoption", "Tener suerte"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Al que le quede el poncho que se lo ponga"], ["definition", "Cuando una persona se siente identificada por una indirecta"], ["created_at", "2021-12-15 15:40:43.785894"], ["updated_at", "2021-12-15 15:40:43.785894"], ["secondoption", "Desvelar tu edad con un hecho de conocimiento público que pasó hace tiempo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo filete"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:40:43.787477"], ["updated_at", "2021-12-15 15:40:43.787477"], ["secondoption", "Ser muy sobrado o creído"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Borrar el casete"], ["definition", "Se te borra la memoria cuando bebes"], ["created_at", "2021-12-15 15:40:43.788754"], ["updated_at", "2021-12-15 15:40:43.788754"], ["secondoption", "Lo mejor, o que se cree lo mejor"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Apagar la tele"], ["definition", "Quedar inconsciente de tanto beber"], ["created_at", "2021-12-15 15:40:43.790498"], ["updated_at", "2021-12-15 15:40:43.790498"], ["secondoption", "Después del trabajo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Importar una raja"], ["definition", "No importa"], ["created_at", "2021-12-15 15:40:43.792264"], ["updated_at", "2021-12-15 15:40:43.792264"], ["secondoption", "Resumir, apurarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar el rollo"], ["definition", "Conocer, evaluar a alguien"], ["created_at", "2021-12-15 15:40:43.794065"], ["updated_at", "2021-12-15 15:40:43.794065"], ["secondoption", "Cara dura, sin vergüenza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Más cosido que un botón de oro"], ["definition", "Estar muy borracho"], ["created_at", "2021-12-15 15:40:43.795536"], ["updated_at", "2021-12-15 15:40:43.795536"], ["secondoption", "No coincidimos, no nos encontramos"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "El día del pico / corneta"], ["definition", "Jamás o en un futuro poco probable"], ["created_at", "2021-12-15 15:40:43.797070"], ["updated_at", "2021-12-15 15:40:43.797070"], ["secondoption", "Alargar una situación"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Volantín de cuero"], ["definition", "Que no invita nunca"], ["created_at", "2021-12-15 15:40:43.798465"], ["updated_at", "2021-12-15 15:40:43.798465"], ["secondoption", "Simpático, agradable, que cae bien rápido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sanguchito de palta"], ["definition", "Que cuenta todo, no guarda secretos"], ["created_at", "2021-12-15 15:40:43.800242"], ["updated_at", "2021-12-15 15:40:43.800242"], ["secondoption", "Coquetearle"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Chupar más que orilla de playa"], ["definition", "Beber mucho"], ["created_at", "2021-12-15 15:40:43.801618"], ["updated_at", "2021-12-15 15:40:43.801618"], ["secondoption", "El/la amante"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tener la media cuea / Ser rajuo"], ["definition", "Tener suerte"], ["created_at", "2021-12-15 15:40:43.803126"], ["updated_at", "2021-12-15 15:40:43.803126"], ["secondoption", "Junta para beber y comer carne barata"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Se te cayó el carnet"], ["definition", "Desvelar tu edad con un hecho de conocimiento público que pasó hace tiempo"], ["created_at", "2021-12-15 15:40:43.804632"], ["updated_at", "2021-12-15 15:40:43.804632"], ["secondoption", "Ser alguien que halaga mucho a otras personas para conseguir algo a cambio"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tirarse los pedos más arriba del culo"], ["definition", "Ser muy sobrado o creído"], ["created_at", "2021-12-15 15:40:43.806064"], ["updated_at", "2021-12-15 15:40:43.806064"], ["secondoption", "Maestros que hacen de todo, pero sin expertiz o estudios en el área"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "La última chupa del mate"], ["definition", "Lo mejor, o que se cree lo mejor"], ["created_at", "2021-12-15 15:40:43.807630"], ["updated_at", "2021-12-15 15:40:43.807630"], ["secondoption", "Conversar con precisión y franqueza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Después de la pega"], ["definition", "Después del trabajo"], ["created_at", "2021-12-15 15:40:43.809142"], ["updated_at", "2021-12-15 15:40:43.809142"], ["secondoption", "Torpe"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer el cuento corto"], ["definition", "Resumir, apurarse"], ["created_at", "2021-12-15 15:40:43.810721"], ["updated_at", "2021-12-15 15:40:43.810721"], ["secondoption", "Ser muy pro, profesional, experto"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.6ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Cara de raja"], ["definition", "Cara dura, sin vergüenza"], ["created_at", "2021-12-15 15:40:43.812280"], ["updated_at", "2021-12-15 15:40:43.812280"], ["secondoption", "Estar muy ansioso o con muchísimos deseos de hacer algo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "No nos topamos"], ["definition", "No coincidimos, no nos encontramos"], ["created_at", "2021-12-15 15:40:43.814189"], ["updated_at", "2021-12-15 15:40:43.814189"], ["secondoption", "No importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estirar el chicle"], ["definition", "Alargar una situación"], ["created_at", "2021-12-15 15:40:43.815583"], ["updated_at", "2021-12-15 15:40:43.815583"], ["secondoption", "Estar borracho o drogado, pero no al extremo de perder el sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Livianito de sangre"], ["definition", "Simpático, agradable, que cae bien rápido"], ["created_at", "2021-12-15 15:40:43.817049"], ["updated_at", "2021-12-15 15:40:43.817049"], ["secondoption", "Cuando a alguien le dan una paliza o se cae de forma aparatosa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tirarle los churrines / calzones"], ["definition", "Coquetearle"], ["created_at", "2021-12-15 15:40:43.818821"], ["updated_at", "2021-12-15 15:40:43.818821"], ["secondoption", "Tener dudas o sospechas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "El/la patas negras"], ["definition", "El/la amante"], ["created_at", "2021-12-15 15:40:43.820341"], ["updated_at", "2021-12-15 15:40:43.820341"], ["secondoption", "Creerse el mejor"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Asado de vidrio"], ["definition", "Junta para beber y comer carne barata"], ["created_at", "2021-12-15 15:40:43.821819"], ["updated_at", "2021-12-15 15:40:43.821819"], ["secondoption", "Estar borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser chupa medias"], ["definition", "Ser alguien que halaga mucho a otras personas para conseguir algo a cambio"], ["created_at", "2021-12-15 15:40:43.823241"], ["updated_at", "2021-12-15 15:40:43.823241"], ["secondoption", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Maestro chasquilla"], ["definition", "Maestros que hacen de todo, pero sin expertiz o estudios en el área"], ["created_at", "2021-12-15 15:40:43.824682"], ["updated_at", "2021-12-15 15:40:43.824682"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hablar calzón quitado"], ["definition", "Conversar con precisión y franqueza"], ["created_at", "2021-12-15 15:40:43.826199"], ["updated_at", "2021-12-15 15:40:43.826199"], ["secondoption", "Callarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Caído del catre"], ["definition", "Torpe"], ["created_at", "2021-12-15 15:40:43.827663"], ["updated_at", "2021-12-15 15:40:43.827663"], ["secondoption", "Irse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser seco"], ["definition", "Ser muy pro, profesional, experto"], ["created_at", "2021-12-15 15:40:43.829377"], ["updated_at", "2021-12-15 15:40:43.829377"], ["secondoption", "Hablar tonterías"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar que corta las huinchas"], ["definition", "Estar muy ansioso o con muchísimos deseos de hacer algo"], ["created_at", "2021-12-15 15:40:43.831124"], ["updated_at", "2021-12-15 15:40:43.831124"], ["secondoption", "Firmar abreviadamente, hacer un garabato de firma o una rúbrica"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Importar un pucho"], ["definition", "No importa"], ["created_at", "2021-12-15 15:40:43.832778"], ["updated_at", "2021-12-15 15:40:43.832778"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar arriba de la pelota"], ["definition", "Estar borracho o drogado, pero no al extremo de perder el sentido"], ["created_at", "2021-12-15 15:40:43.834435"], ["updated_at", "2021-12-15 15:40:43.834435"], ["secondoption", "Exagerar"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar la ñoña / la cresta:"], ["definition", "Cuando a alguien le dan una paliza o se cae de forma aparatosa"], ["created_at", "2021-12-15 15:40:43.836124"], ["updated_at", "2021-12-15 15:40:43.836124"], ["secondoption", "Estar enfermo, decaído, mal"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar cachuo"], ["definition", "Tener dudas o sospechas"], ["created_at", "2021-12-15 15:40:43.837810"], ["updated_at", "2021-12-15 15:40:43.837810"], ["secondoption", "Dejar de creerse la gran cosa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Creerse el hoyo del queque"], ["definition", "Creerse el mejor"], ["created_at", "2021-12-15 15:40:43.841355"], ["updated_at", "2021-12-15 15:40:43.841355"], ["secondoption", "Cometer un error grave"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Como piojo"], ["definition", "Estar borracho"], ["created_at", "2021-12-15 15:40:43.842942"], ["updated_at", "2021-12-15 15:40:43.842942"], ["secondoption", "Tratar de confundir o engañar a otra persona con muchas palabras, burocracia o alguna técnica rebuscada"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echar la yegua"], ["definition", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["created_at", "2021-12-15 15:40:43.844331"], ["updated_at", "2021-12-15 15:40:43.844331"], ["secondoption", "Tener muy mala suerte"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:40:43.845693"], ["updated_at", "2021-12-15 15:40:43.845693"], ["secondoption", "Dejar a alguien mal parado o hacer que pierda la estima de los demás"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Morir pollo"], ["definition", "Callarse"], ["created_at", "2021-12-15 15:40:43.847057"], ["updated_at", "2021-12-15 15:40:43.847057"], ["secondoption", "Hacer algo para prevenir un problema"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echarse al pollo"], ["definition", "Irse"], ["created_at", "2021-12-15 15:40:43.848409"], ["updated_at", "2021-12-15 15:40:43.848409"], ["secondoption", "Un producto de muy mala calidad, copia o de una marca desconocida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hablar cabezas de pescado"], ["definition", "Hablar tonterías"], ["created_at", "2021-12-15 15:40:43.849867"], ["updated_at", "2021-12-15 15:40:43.849867"], ["secondoption", "Realizar una tarea más rápido o apurarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer una mosca"], ["definition", "Firmar abreviadamente, hacer un garabato de firma o una rúbrica"], ["created_at", "2021-12-15 15:40:43.851411"], ["updated_at", "2021-12-15 15:40:43.851411"], ["secondoption", "Arreglarse o acicalarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo la zorra / la raja"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:40:43.852821"], ["updated_at", "2021-12-15 15:40:43.852821"], ["secondoption", "No tener dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Irse al chancho"], ["definition", "Exagerar"], ["created_at", "2021-12-15 15:40:43.854249"], ["updated_at", "2021-12-15 15:40:43.854249"], ["secondoption", "Ser un entrometido que le gusta hablar de los demás, contando sus cosas privadas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar pal gato"], ["definition", "Estar enfermo, decaído, mal"], ["created_at", "2021-12-15 15:40:43.855648"], ["updated_at", "2021-12-15 15:40:43.855648"], ["secondoption", "Divertirse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Bajarse del pony"], ["definition", "Dejar de creerse la gran cosa"], ["created_at", "2021-12-15 15:40:43.857042"], ["updated_at", "2021-12-15 15:40:43.857042"], ["secondoption", "Irse de un restaurante/bar/café sin pagar"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mandarse un condoro"], ["definition", "Cometer un error grave"], ["created_at", "2021-12-15 15:40:43.858419"], ["updated_at", "2021-12-15 15:40:43.858419"], ["secondoption", "Hacer una colecta o juntar dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Embolinar la perdiz"], ["definition", "Tratar de confundir o engañar a otra persona con muchas palabras, burocracia o alguna técnica rebuscada"], ["created_at", "2021-12-15 15:40:43.859780"], ["updated_at", "2021-12-15 15:40:43.859780"], ["secondoption", "Ser ingenioso, ocurrente o de reacción rápida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar meado de gato"], ["definition", "Tener muy mala suerte"], ["created_at", "2021-12-15 15:40:43.861210"], ["updated_at", "2021-12-15 15:40:43.861210"], ["secondoption", "Confrontar o reprender a alguien por una acción o actitud equivocada"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dejar como chaleco de mono"], ["definition", "Dejar a alguien mal parado o hacer que pierda la estima de los demás"], ["created_at", "2021-12-15 15:40:43.862623"], ["updated_at", "2021-12-15 15:40:43.862623"], ["secondoption", "Ser valiente, osado o atrevido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Por si las moscas"], ["definition", "Hacer algo para prevenir un problema"], ["created_at", "2021-12-15 15:40:43.864072"], ["updated_at", "2021-12-15 15:40:43.864072"], ["secondoption", "En seguida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Marca chancho"], ["definition", "Un producto de muy mala calidad, copia o de una marca desconocida"], ["created_at", "2021-12-15 15:40:43.865443"], ["updated_at", "2021-12-15 15:40:43.865443"], ["secondoption", "Borracho o ebrio"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Chicotear los caracoles"], ["definition", "Realizar una tarea más rápido o apurarse"], ["created_at", "2021-12-15 15:40:43.866946"], ["updated_at", "2021-12-15 15:40:43.866946"], ["secondoption", "Muy ebrio o borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Darse una manito de gato / de tigre"], ["definition", "Arreglarse o acicalarse"], ["created_at", "2021-12-15 15:40:43.868508"], ["updated_at", "2021-12-15 15:40:43.868508"], ["secondoption", "Tener resaca"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar pato"], ["definition", "No tener dinero"], ["created_at", "2021-12-15 15:40:43.869935"], ["updated_at", "2021-12-15 15:40:43.869935"], ["secondoption", "Filosofar o meditar profundamente sobre los vaivenes de la vida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser sapo"], ["definition", "Ser un entrometido que le gusta hablar de los demás, contando sus cosas privadas"], ["created_at", "2021-12-15 15:40:43.871333"], ["updated_at", "2021-12-15 15:40:43.871333"], ["secondoption", "Correr apurado"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Divertirse"], ["created_at", "2021-12-15 15:40:43.872823"], ["updated_at", "2021-12-15 15:40:43.872823"], ["secondoption", "Abreviar un trámite o resumir una historia muy larga, demorarse poco"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer perro muerto"], ["definition", "Irse de un restaurante/bar/café sin pagar"], ["created_at", "2021-12-15 15:40:43.874240"], ["updated_at", "2021-12-15 15:40:43.874240"], ["secondoption", "Estar a punto de morir"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer la vaca"], ["definition", "Hacer una colecta o juntar dinero"], ["created_at", "2021-12-15 15:40:43.875558"], ["updated_at", "2021-12-15 15:40:43.875558"], ["secondoption", "intención de quitarle el novio o novia a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser avispado"], ["definition", "Ser ingenioso, ocurrente o de reacción rápida"], ["created_at", "2021-12-15 15:40:43.876863"], ["updated_at", "2021-12-15 15:40:43.876863"], ["secondoption", "Atreverse, decir algo osado"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echar la foca"], ["definition", "Confrontar o reprender a alguien por una acción o actitud equivocada"], ["created_at", "2021-12-15 15:40:43.878167"], ["updated_at", "2021-12-15 15:40:43.878167"], ["secondoption", "No tener relaciones sexuales en un tiempo considerable"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser aperrado"], ["definition", "Ser valiente, osado o atrevido"], ["created_at", "2021-12-15 15:40:43.879565"], ["updated_at", "2021-12-15 15:40:43.879565"], ["secondoption", "La comida estaba muy rica"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Como piojo"], ["definition", "Estar borracho"], ["created_at", "2021-12-15 15:40:43.880937"], ["updated_at", "2021-12-15 15:40:43.880937"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Echar la yegua"], ["definition", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["created_at", "2021-12-15 15:40:43.882341"], ["updated_at", "2021-12-15 15:40:43.882341"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:40:43.883689"], ["updated_at", "2021-12-15 15:40:43.883689"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Morir pollo"], ["definition", "Callarse"], ["created_at", "2021-12-15 15:40:43.885190"], ["updated_at", "2021-12-15 15:40:43.885190"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 211]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 212]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 213]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 214]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 215]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 216]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 217]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 218]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 219]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 220]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 221]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 222]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 223]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 224]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 225]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 226]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 227]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 228]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 229]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 230]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 231]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 232]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 233]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 234]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 235]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 236]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 237]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 238]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 239]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 240]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 241]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.4ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 242]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 243]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 244]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 245]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 246]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 247]]
+  [1m[36mTRANSACTION (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 248]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 249]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 250]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 251]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 252]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 253]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 254]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 255]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 256]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 257]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 258]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 259]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 260]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 261]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 262]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 263]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 264]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 265]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 266]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 267]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 268]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 269]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 270]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 271]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 272]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 273]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 274]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 275]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 276]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 277]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 278]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 279]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 280]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 281]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 282]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 283]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 284]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 285]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 286]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 287]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 288]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 289]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 290]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 291]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 292]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 293]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 294]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 295]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.4ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 296]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 297]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 298]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 299]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 300]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 301]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 302]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 303]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.1ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 304]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 305]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 306]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.3ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 307]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 308]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 309]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 310]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 311]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 312]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Destroy (0.2ms)[0m  [1m[31mDELETE FROM "expressions" WHERE "expressions"."id" = $1[0m  [["id", 313]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.5ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Al tiro"], ["definition", "En seguida"], ["created_at", "2021-12-15 15:45:38.389966"], ["updated_at", "2021-12-15 15:45:38.389966"], ["secondoption", "Casarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Arriba de la pelota"], ["definition", "Borracho o ebrio"], ["created_at", "2021-12-15 15:45:38.391961"], ["updated_at", "2021-12-15 15:45:38.391961"], ["secondoption", "La pareja controladora"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Quedar raja"], ["definition", "Muy ebrio o borracho"], ["created_at", "2021-12-15 15:45:38.393248"], ["updated_at", "2021-12-15 15:45:38.393248"], ["secondoption", "Estar preso en la cárcel"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar con la caña"], ["definition", "Tener resaca"], ["created_at", "2021-12-15 15:45:38.394573"], ["updated_at", "2021-12-15 15:45:38.394573"], ["secondoption", "Quitarle el trabajo a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Yendo en la profundidad"], ["definition", "Filosofar o meditar profundamente sobre los vaivenes de la vida"], ["created_at", "2021-12-15 15:45:38.395859"], ["updated_at", "2021-12-15 15:45:38.395859"], ["secondoption", "Burlarse de alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Apretar cachete"], ["definition", "Correr apurado"], ["created_at", "2021-12-15 15:45:38.397391"], ["updated_at", "2021-12-15 15:45:38.397391"], ["secondoption", "Es o está difícil"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacerla corta"], ["definition", "Abreviar un trámite o resumir una historia muy larga, demorarse poco"], ["created_at", "2021-12-15 15:45:38.398953"], ["updated_at", "2021-12-15 15:45:38.398953"], ["secondoption", "Algo que da flojera, desgano o pereza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.8ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tener olor a gladiolos"], ["definition", "Estar a punto de morir"], ["created_at", "2021-12-15 15:45:38.400223"], ["updated_at", "2021-12-15 15:45:38.400223"], ["secondoption", "Estar angustiados o tristes"], ["points", 2]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pellizcar la uva"], ["definition", "intención de quitarle el novio o novia a alguien"], ["created_at", "2021-12-15 15:45:38.402515"], ["updated_at", "2021-12-15 15:45:38.402515"], ["secondoption", "Ir de fiesta"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mojarse el potito"], ["definition", "Atreverse, decir algo osado"], ["created_at", "2021-12-15 15:45:38.404048"], ["updated_at", "2021-12-15 15:45:38.404048"], ["secondoption", "Ser poco desprendido o que no le gusta compartir sus cosas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Andar con el Kino acumulado"], ["definition", "No tener relaciones sexuales en un tiempo considerable"], ["created_at", "2021-12-15 15:45:38.405444"], ["updated_at", "2021-12-15 15:45:38.405444"], ["secondoption", "Provocar celos o envidia"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Para chuparse los bigotes"], ["definition", "La comida estaba muy rica"], ["created_at", "2021-12-15 15:45:38.406753"], ["updated_at", "2021-12-15 15:45:38.406753"], ["secondoption", "No le interesa o no le importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.6ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pisar el palito"], ["definition", "Casarse"], ["created_at", "2021-12-15 15:45:38.408216"], ["updated_at", "2021-12-15 15:45:38.408216"], ["secondoption", "Manosear a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "La mano que aprieta"], ["definition", "La pareja controladora"], ["created_at", "2021-12-15 15:45:38.410029"], ["updated_at", "2021-12-15 15:45:38.410029"], ["secondoption", "Armar un escándalo, un desastre o un mal entendido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar en cana o Canadá"], ["definition", "Estar preso en la cárcel"], ["created_at", "2021-12-15 15:45:38.411379"], ["updated_at", "2021-12-15 15:45:38.411379"], ["secondoption", "Ser egocéntrico, vanagloriarse o sentirse orgulloso de algo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Aserruchar el piso"], ["definition", "Quitarle el trabajo a alguien"], ["created_at", "2021-12-15 15:45:38.412778"], ["updated_at", "2021-12-15 15:45:38.412778"], ["secondoption", "Estar en un lugar perdiendo el tiempo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Subir al columpio"], ["definition", "Burlarse de alguien"], ["created_at", "2021-12-15 15:45:38.414194"], ["updated_at", "2021-12-15 15:45:38.414194"], ["secondoption", "Cambiar de opinión según convenga"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Está peluo"], ["definition", "Es o está difícil"], ["created_at", "2021-12-15 15:45:38.415457"], ["updated_at", "2021-12-15 15:45:38.415457"], ["secondoption", "Decir o hacer cosas sin sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar lata / paja"], ["definition", "Algo que da flojera, desgano o pereza"], ["created_at", "2021-12-15 15:45:38.416813"], ["updated_at", "2021-12-15 15:45:38.416813"], ["secondoption", "Quedó embarazada inesperadamente"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar achacado"], ["definition", "Estar angustiados o tristes"], ["created_at", "2021-12-15 15:45:38.418229"], ["updated_at", "2021-12-15 15:45:38.418229"], ["secondoption", "No es muy riguroso o rigurosa para elegir parejas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ir a carretear"], ["definition", "Ir de fiesta"], ["created_at", "2021-12-15 15:45:38.419610"], ["updated_at", "2021-12-15 15:45:38.419610"], ["secondoption", "Tiene una energía infinita"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser apretado"], ["definition", "Ser poco desprendido o que no le gusta compartir sus cosas"], ["created_at", "2021-12-15 15:45:38.420989"], ["updated_at", "2021-12-15 15:45:38.420989"], ["secondoption", "Estar haciendo o diciendo una locura o algo sin sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar pica"], ["definition", "Provocar celos o envidia"], ["created_at", "2021-12-15 15:45:38.422407"], ["updated_at", "2021-12-15 15:45:38.422407"], ["secondoption", "Poner atención a alguna situación"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "No estar ni ahí"], ["definition", "No le interesa o no le importa"], ["created_at", "2021-12-15 15:45:38.423775"], ["updated_at", "2021-12-15 15:45:38.423775"], ["secondoption", "Persona que no quiere gastar dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Correr mano"], ["definition", "Manosear a alguien"], ["created_at", "2021-12-15 15:45:38.425009"], ["updated_at", "2021-12-15 15:45:38.425009"], ["secondoption", "Cuando alguien se mete en una conversación en la que no estaba incluido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Quedar la crema / Dejar la cagada / Dejar la escoba"], ["definition", "Armar un escándalo, un desastre o un mal entendido"], ["created_at", "2021-12-15 15:45:38.426382"], ["updated_at", "2021-12-15 15:45:38.426382"], ["secondoption", "Cuando una persona se siente identificada por una indirecta"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Creerse la muerte"], ["definition", "Ser egocéntrico, vanagloriarse o sentirse orgulloso de algo"], ["created_at", "2021-12-15 15:45:38.427859"], ["updated_at", "2021-12-15 15:45:38.427859"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar la hora"], ["definition", "Estar en un lugar perdiendo el tiempo"], ["created_at", "2021-12-15 15:45:38.429406"], ["updated_at", "2021-12-15 15:45:38.429406"], ["secondoption", "Se te borra la memoria cuando bebes"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Darse vuelta la chaqueta"], ["definition", "Cambiar de opinión según convenga"], ["created_at", "2021-12-15 15:45:38.430733"], ["updated_at", "2021-12-15 15:45:38.430733"], ["secondoption", "Quedar inconsciente de tanto beber"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dar jugo"], ["definition", "Decir o hacer cosas sin sentido"], ["created_at", "2021-12-15 15:45:38.432071"], ["updated_at", "2021-12-15 15:45:38.432071"], ["secondoption", "No importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Salió con un domingo siete"], ["definition", "Quedó embarazada inesperadamente"], ["created_at", "2021-12-15 15:45:38.433420"], ["updated_at", "2021-12-15 15:45:38.433420"], ["secondoption", "Conocer, evaluar a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Todas las micros le sirven"], ["definition", "No es muy riguroso o rigurosa para elegir parejas"], ["created_at", "2021-12-15 15:45:38.434725"], ["updated_at", "2021-12-15 15:45:38.434725"], ["secondoption", "Estar muy borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Más prendido que tele de conserje"], ["definition", "Tiene una energía infinita"], ["created_at", "2021-12-15 15:45:38.436055"], ["updated_at", "2021-12-15 15:45:38.436055"], ["secondoption", "Jamás o en un futuro poco probable"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Rallar la papa o peinar la muñeca"], ["definition", "Estar haciendo o diciendo una locura o algo sin sentido"], ["created_at", "2021-12-15 15:45:38.437914"], ["updated_at", "2021-12-15 15:45:38.437914"], ["secondoption", "Que no invita nunca"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ojo al charqui"], ["definition", "Poner atención a alguna situación"], ["created_at", "2021-12-15 15:45:38.439817"], ["updated_at", "2021-12-15 15:45:38.439817"], ["secondoption", "Que cuenta todo, no guarda secretos"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mano de guagua"], ["definition", "Persona que no quiere gastar dinero"], ["created_at", "2021-12-15 15:45:38.441240"], ["updated_at", "2021-12-15 15:45:38.441240"], ["secondoption", "Beber mucho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Saltó lejos el maní"], ["definition", "Cuando alguien se mete en una conversación en la que no estaba incluido"], ["created_at", "2021-12-15 15:45:38.443123"], ["updated_at", "2021-12-15 15:45:38.443123"], ["secondoption", "Tener suerte"], ["points", 2]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Al que le quede el poncho que se lo ponga"], ["definition", "Cuando una persona se siente identificada por una indirecta"], ["created_at", "2021-12-15 15:45:38.444584"], ["updated_at", "2021-12-15 15:45:38.444584"], ["secondoption", "Desvelar tu edad con un hecho de conocimiento público que pasó hace tiempo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo filete"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:45:38.446326"], ["updated_at", "2021-12-15 15:45:38.446326"], ["secondoption", "Ser muy sobrado o creído"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Borrar el casete"], ["definition", "Se te borra la memoria cuando bebes"], ["created_at", "2021-12-15 15:45:38.448189"], ["updated_at", "2021-12-15 15:45:38.448189"], ["secondoption", "Lo mejor, o que se cree lo mejor"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Apagar la tele"], ["definition", "Quedar inconsciente de tanto beber"], ["created_at", "2021-12-15 15:45:38.450082"], ["updated_at", "2021-12-15 15:45:38.450082"], ["secondoption", "Después del trabajo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Importar una raja"], ["definition", "No importa"], ["created_at", "2021-12-15 15:45:38.452047"], ["updated_at", "2021-12-15 15:45:38.452047"], ["secondoption", "Resumir, apurarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar el rollo"], ["definition", "Conocer, evaluar a alguien"], ["created_at", "2021-12-15 15:45:38.453730"], ["updated_at", "2021-12-15 15:45:38.453730"], ["secondoption", "Cara dura, sin vergüenza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Más cosido que un botón de oro"], ["definition", "Estar muy borracho"], ["created_at", "2021-12-15 15:45:38.455479"], ["updated_at", "2021-12-15 15:45:38.455479"], ["secondoption", "No coincidimos, no nos encontramos"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "El día del pico / corneta"], ["definition", "Jamás o en un futuro poco probable"], ["created_at", "2021-12-15 15:45:38.457213"], ["updated_at", "2021-12-15 15:45:38.457213"], ["secondoption", "Alargar una situación"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Volantín de cuero"], ["definition", "Que no invita nunca"], ["created_at", "2021-12-15 15:45:38.458627"], ["updated_at", "2021-12-15 15:45:38.458627"], ["secondoption", "Simpático, agradable, que cae bien rápido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sanguchito de palta"], ["definition", "Que cuenta todo, no guarda secretos"], ["created_at", "2021-12-15 15:45:38.460077"], ["updated_at", "2021-12-15 15:45:38.460077"], ["secondoption", "Coquetearle"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Chupar más que orilla de playa"], ["definition", "Beber mucho"], ["created_at", "2021-12-15 15:45:38.461783"], ["updated_at", "2021-12-15 15:45:38.461783"], ["secondoption", "El/la amante"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tener la media cuea / Ser rajuo"], ["definition", "Tener suerte"], ["created_at", "2021-12-15 15:45:38.463382"], ["updated_at", "2021-12-15 15:45:38.463382"], ["secondoption", "Junta para beber y comer carne barata"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Se te cayó el carnet"], ["definition", "Desvelar tu edad con un hecho de conocimiento público que pasó hace tiempo"], ["created_at", "2021-12-15 15:45:38.464952"], ["updated_at", "2021-12-15 15:45:38.464952"], ["secondoption", "Ser alguien que halaga mucho a otras personas para conseguir algo a cambio"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tirarse los pedos más arriba del culo"], ["definition", "Ser muy sobrado o creído"], ["created_at", "2021-12-15 15:45:38.466459"], ["updated_at", "2021-12-15 15:45:38.466459"], ["secondoption", "Maestros que hacen de todo, pero sin expertiz o estudios en el área"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "La última chupa del mate"], ["definition", "Lo mejor, o que se cree lo mejor"], ["created_at", "2021-12-15 15:45:38.467913"], ["updated_at", "2021-12-15 15:45:38.467913"], ["secondoption", "Conversar con precisión y franqueza"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Después de la pega"], ["definition", "Después del trabajo"], ["created_at", "2021-12-15 15:45:38.469352"], ["updated_at", "2021-12-15 15:45:38.469352"], ["secondoption", "Torpe"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer el cuento corto"], ["definition", "Resumir, apurarse"], ["created_at", "2021-12-15 15:45:38.470821"], ["updated_at", "2021-12-15 15:45:38.470821"], ["secondoption", "Ser muy pro, profesional, experto"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Cara de raja"], ["definition", "Cara dura, sin vergüenza"], ["created_at", "2021-12-15 15:45:38.472345"], ["updated_at", "2021-12-15 15:45:38.472345"], ["secondoption", "Estar muy ansioso o con muchísimos deseos de hacer algo"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "No nos topamos"], ["definition", "No coincidimos, no nos encontramos"], ["created_at", "2021-12-15 15:45:38.473911"], ["updated_at", "2021-12-15 15:45:38.473911"], ["secondoption", "No importa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estirar el chicle"], ["definition", "Alargar una situación"], ["created_at", "2021-12-15 15:45:38.475451"], ["updated_at", "2021-12-15 15:45:38.475451"], ["secondoption", "Estar borracho o drogado, pero no al extremo de perder el sentido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Livianito de sangre"], ["definition", "Simpático, agradable, que cae bien rápido"], ["created_at", "2021-12-15 15:45:38.478256"], ["updated_at", "2021-12-15 15:45:38.478256"], ["secondoption", "Cuando a alguien le dan una paliza o se cae de forma aparatosa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Tirarle los churrines / calzones"], ["definition", "Coquetearle"], ["created_at", "2021-12-15 15:45:38.479740"], ["updated_at", "2021-12-15 15:45:38.479740"], ["secondoption", "Tener dudas o sospechas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "El/la patas negras"], ["definition", "El/la amante"], ["created_at", "2021-12-15 15:45:38.481163"], ["updated_at", "2021-12-15 15:45:38.481163"], ["secondoption", "Creerse el mejor"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Asado de vidrio"], ["definition", "Junta para beber y comer carne barata"], ["created_at", "2021-12-15 15:45:38.482578"], ["updated_at", "2021-12-15 15:45:38.482578"], ["secondoption", "Estar borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser chupa medias"], ["definition", "Ser alguien que halaga mucho a otras personas para conseguir algo a cambio"], ["created_at", "2021-12-15 15:45:38.483936"], ["updated_at", "2021-12-15 15:45:38.483936"], ["secondoption", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Maestro chasquilla"], ["definition", "Maestros que hacen de todo, pero sin expertiz o estudios en el área"], ["created_at", "2021-12-15 15:45:38.485428"], ["updated_at", "2021-12-15 15:45:38.485428"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hablar calzón quitado"], ["definition", "Conversar con precisión y franqueza"], ["created_at", "2021-12-15 15:45:38.486881"], ["updated_at", "2021-12-15 15:45:38.486881"], ["secondoption", "Callarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Caído del catre"], ["definition", "Torpe"], ["created_at", "2021-12-15 15:45:38.488261"], ["updated_at", "2021-12-15 15:45:38.488261"], ["secondoption", "Irse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser seco"], ["definition", "Ser muy pro, profesional, experto"], ["created_at", "2021-12-15 15:45:38.489748"], ["updated_at", "2021-12-15 15:45:38.489748"], ["secondoption", "Hablar tonterías"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar que corta las huinchas"], ["definition", "Estar muy ansioso o con muchísimos deseos de hacer algo"], ["created_at", "2021-12-15 15:45:38.491146"], ["updated_at", "2021-12-15 15:45:38.491146"], ["secondoption", "Firmar abreviadamente, hacer un garabato de firma o una rúbrica"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Importar un pucho"], ["definition", "No importa"], ["created_at", "2021-12-15 15:45:38.492874"], ["updated_at", "2021-12-15 15:45:38.492874"], ["secondoption", "Pasarlo muy bien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar arriba de la pelota"], ["definition", "Estar borracho o drogado, pero no al extremo de perder el sentido"], ["created_at", "2021-12-15 15:45:38.494550"], ["updated_at", "2021-12-15 15:45:38.494550"], ["secondoption", "Exagerar"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Sacar la ñoña / la cresta:"], ["definition", "Cuando a alguien le dan una paliza o se cae de forma aparatosa"], ["created_at", "2021-12-15 15:45:38.496015"], ["updated_at", "2021-12-15 15:45:38.496015"], ["secondoption", "Estar enfermo, decaído, mal"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar cachuo"], ["definition", "Tener dudas o sospechas"], ["created_at", "2021-12-15 15:45:38.497385"], ["updated_at", "2021-12-15 15:45:38.497385"], ["secondoption", "Dejar de creerse la gran cosa"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Creerse el hoyo del queque"], ["definition", "Creerse el mejor"], ["created_at", "2021-12-15 15:45:38.498750"], ["updated_at", "2021-12-15 15:45:38.498750"], ["secondoption", "Cometer un error grave"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Como piojo"], ["definition", "Estar borracho"], ["created_at", "2021-12-15 15:45:38.500146"], ["updated_at", "2021-12-15 15:45:38.500146"], ["secondoption", "Tratar de confundir o engañar a otra persona con muchas palabras, burocracia o alguna técnica rebuscada"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echar la yegua"], ["definition", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["created_at", "2021-12-15 15:45:38.501592"], ["updated_at", "2021-12-15 15:45:38.501592"], ["secondoption", "Tener muy mala suerte"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:45:38.503089"], ["updated_at", "2021-12-15 15:45:38.503089"], ["secondoption", "Dejar a alguien mal parado o hacer que pierda la estima de los demás"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Morir pollo"], ["definition", "Callarse"], ["created_at", "2021-12-15 15:45:38.504615"], ["updated_at", "2021-12-15 15:45:38.504615"], ["secondoption", "Hacer algo para prevenir un problema"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echarse al pollo"], ["definition", "Irse"], ["created_at", "2021-12-15 15:45:38.506089"], ["updated_at", "2021-12-15 15:45:38.506089"], ["secondoption", "Un producto de muy mala calidad, copia o de una marca desconocida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hablar cabezas de pescado"], ["definition", "Hablar tonterías"], ["created_at", "2021-12-15 15:45:38.507794"], ["updated_at", "2021-12-15 15:45:38.507794"], ["secondoption", "Realizar una tarea más rápido o apurarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer una mosca"], ["definition", "Firmar abreviadamente, hacer un garabato de firma o una rúbrica"], ["created_at", "2021-12-15 15:45:38.509747"], ["updated_at", "2021-12-15 15:45:38.509747"], ["secondoption", "Arreglarse o acicalarse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo la zorra / la raja"], ["definition", "Pasarlo muy bien"], ["created_at", "2021-12-15 15:45:38.511391"], ["updated_at", "2021-12-15 15:45:38.511391"], ["secondoption", "No tener dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Irse al chancho"], ["definition", "Exagerar"], ["created_at", "2021-12-15 15:45:38.512907"], ["updated_at", "2021-12-15 15:45:38.512907"], ["secondoption", "Ser un entrometido que le gusta hablar de los demás, contando sus cosas privadas"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar pal gato"], ["definition", "Estar enfermo, decaído, mal"], ["created_at", "2021-12-15 15:45:38.514412"], ["updated_at", "2021-12-15 15:45:38.514412"], ["secondoption", "Divertirse"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Bajarse del pony"], ["definition", "Dejar de creerse la gran cosa"], ["created_at", "2021-12-15 15:45:38.515959"], ["updated_at", "2021-12-15 15:45:38.515959"], ["secondoption", "Irse de un restaurante/bar/café sin pagar"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Mandarse un condoro"], ["definition", "Cometer un error grave"], ["created_at", "2021-12-15 15:45:38.517465"], ["updated_at", "2021-12-15 15:45:38.517465"], ["secondoption", "Hacer una colecta o juntar dinero"], ["points", 2]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Embolinar la perdiz"], ["definition", "Tratar de confundir o engañar a otra persona con muchas palabras, burocracia o alguna técnica rebuscada"], ["created_at", "2021-12-15 15:45:38.519265"], ["updated_at", "2021-12-15 15:45:38.519265"], ["secondoption", "Ser ingenioso, ocurrente o de reacción rápida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar meado de gato"], ["definition", "Tener muy mala suerte"], ["created_at", "2021-12-15 15:45:38.520782"], ["updated_at", "2021-12-15 15:45:38.520782"], ["secondoption", "Confrontar o reprender a alguien por una acción o actitud equivocada"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Dejar como chaleco de mono"], ["definition", "Dejar a alguien mal parado o hacer que pierda la estima de los demás"], ["created_at", "2021-12-15 15:45:38.522279"], ["updated_at", "2021-12-15 15:45:38.522279"], ["secondoption", "Ser valiente, osado o atrevido"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Por si las moscas"], ["definition", "Hacer algo para prevenir un problema"], ["created_at", "2021-12-15 15:45:38.523808"], ["updated_at", "2021-12-15 15:45:38.523808"], ["secondoption", "En seguida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Marca chancho"], ["definition", "Un producto de muy mala calidad, copia o de una marca desconocida"], ["created_at", "2021-12-15 15:45:38.525602"], ["updated_at", "2021-12-15 15:45:38.525602"], ["secondoption", "Borracho o ebrio"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Chicotear los caracoles"], ["definition", "Realizar una tarea más rápido o apurarse"], ["created_at", "2021-12-15 15:45:38.527020"], ["updated_at", "2021-12-15 15:45:38.527020"], ["secondoption", "Muy ebrio o borracho"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Darse una manito de gato / de tigre"], ["definition", "Arreglarse o acicalarse"], ["created_at", "2021-12-15 15:45:38.528406"], ["updated_at", "2021-12-15 15:45:38.528406"], ["secondoption", "Tener resaca"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Estar pato"], ["definition", "No tener dinero"], ["created_at", "2021-12-15 15:45:38.529828"], ["updated_at", "2021-12-15 15:45:38.529828"], ["secondoption", "Filosofar o meditar profundamente sobre los vaivenes de la vida"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser sapo"], ["definition", "Ser un entrometido que le gusta hablar de los demás, contando sus cosas privadas"], ["created_at", "2021-12-15 15:45:38.531290"], ["updated_at", "2021-12-15 15:45:38.531290"], ["secondoption", "Correr apurado"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Divertirse"], ["created_at", "2021-12-15 15:45:38.532683"], ["updated_at", "2021-12-15 15:45:38.532683"], ["secondoption", "Abreviar un trámite o resumir una historia muy larga, demorarse poco"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer perro muerto"], ["definition", "Irse de un restaurante/bar/café sin pagar"], ["created_at", "2021-12-15 15:45:38.534068"], ["updated_at", "2021-12-15 15:45:38.534068"], ["secondoption", "Estar a punto de morir"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Hacer la vaca"], ["definition", "Hacer una colecta o juntar dinero"], ["created_at", "2021-12-15 15:45:38.535438"], ["updated_at", "2021-12-15 15:45:38.535438"], ["secondoption", "intención de quitarle el novio o novia a alguien"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser avispado"], ["definition", "Ser ingenioso, ocurrente o de reacción rápida"], ["created_at", "2021-12-15 15:45:38.536807"], ["updated_at", "2021-12-15 15:45:38.536807"], ["secondoption", "Atreverse, decir algo osado"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Echar la foca"], ["definition", "Confrontar o reprender a alguien por una acción o actitud equivocada"], ["created_at", "2021-12-15 15:45:38.538179"], ["updated_at", "2021-12-15 15:45:38.538179"], ["secondoption", "No tener relaciones sexuales en un tiempo considerable"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at", "secondoption", "points") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["sentence", "Ser aperrado"], ["definition", "Ser valiente, osado o atrevido"], ["created_at", "2021-12-15 15:45:38.539562"], ["updated_at", "2021-12-15 15:45:38.539562"], ["secondoption", "La comida estaba muy rica"], ["points", 2]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m

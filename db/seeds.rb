@@ -18,25 +18,9 @@ puts 'Looping through the parsed data'
 csv.each do |row|
   Expression.create(
     sentence: "#{row['Sentence']}",
-    definition: "#{row['Definition']}"
+    definition: "#{row['Definition']}",
+    secondoption: "#{row['Secondoption']}",
+    points: "#{row['Point']}"
   )
 end
 puts 'All expressions created'
-
-puts 'Creating expressions'
-Expression.create(
-  sentence: 'Como piojo',
-  definition: 'Estar borracho'
-)
-Expression.create(
-  sentence: 'Echar la yegua',
-  definition: 'Cansarse o que te entra un poco de sueño, sobre todo después de comer'
-)
-Expression.create(
-  sentence: 'Pasarlo chancho',
-  definition: 'Pasarlo muy bien'
-)
-Expression.create(
-  sentence: 'Morir pollo',
-  definition: 'Callarse'
-)
