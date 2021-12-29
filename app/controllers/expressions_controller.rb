@@ -7,4 +7,8 @@ class ExpressionsController < ApplicationController
   def show
     @expression = Expression.find(params[:id])
   end
+
+  def quiz
+    @expressions = Expression.all
+  end
 end

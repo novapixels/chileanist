@@ -13262,3 +13262,35 @@ Processing by ExpressionsController#index as HTML
 Completed 200 OK in 27ms (Views: 19.9ms | ActiveRecord: 1.2ms | Allocations: 12521)
 
 
+Started GET "/" for ::1 at 2021-12-29 18:25:22 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 38148)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 40718)
+
+
+Started GET "/quiz" for ::1 at 2021-12-29 18:25:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+Started GET "/" for ::1 at 2021-12-29 18:25:52 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 10484)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 10866)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(918152529321631380)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (5.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(918152529321631380)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
