@@ -11901,3 +11901,1013 @@ Processing by ExpressionsController#index as HTML
 Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 1.1ms | Allocations: 12329)
 
 
+Started GET "/" for ::1 at 2021-12-29 18:04:26 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 10337)
+Completed 200 OK in 24ms (Views: 21.3ms | Allocations: 10713)
+
+
+Started GET "/" for ::1 at 2021-12-29 18:04:26 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 10256)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 10631)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:28 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (2.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 10446)
+Completed 200 OK in 73ms (Views: 23.3ms | ActiveRecord: 22.5ms | Allocations: 16283)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:29 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10866)
+Completed 200 OK in 29ms (Views: 19.8ms | ActiveRecord: 1.3ms | Allocations: 13042)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:29 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10252)
+Completed 200 OK in 29ms (Views: 18.8ms | ActiveRecord: 1.0ms | Allocations: 12428)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:30 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10171)
+Completed 200 OK in 27ms (Views: 19.6ms | ActiveRecord: 1.1ms | Allocations: 12347)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:30 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 10234)
+Completed 200 OK in 81ms (Views: 54.7ms | ActiveRecord: 1.4ms | Allocations: 12410)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:30 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 10153)
+Completed 200 OK in 38ms (Views: 31.2ms | ActiveRecord: 1.0ms | Allocations: 12329)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:32 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 10154)
+Completed 200 OK in 27ms (Views: 18.1ms | ActiveRecord: 1.5ms | Allocations: 12330)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:32 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 10300)
+Completed 200 OK in 26ms (Views: 19.3ms | ActiveRecord: 1.1ms | Allocations: 12477)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:32 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 10350)
+Completed 200 OK in 29ms (Views: 22.5ms | ActiveRecord: 1.3ms | Allocations: 12527)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:33 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 10274)
+Completed 200 OK in 28ms (Views: 19.4ms | ActiveRecord: 1.2ms | Allocations: 12450)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:33 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 10444)
+Completed 200 OK in 26ms (Views: 18.5ms | ActiveRecord: 0.9ms | Allocations: 12621)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:34 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 10273)
+Completed 200 OK in 27ms (Views: 17.7ms | ActiveRecord: 1.5ms | Allocations: 12449)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:34 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 10251)
+Completed 200 OK in 48ms (Views: 40.0ms | ActiveRecord: 1.0ms | Allocations: 12427)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:35 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10170)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 1.0ms | Allocations: 12346)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:36 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (2.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10235)
+Completed 200 OK in 27ms (Views: 18.1ms | ActiveRecord: 2.9ms | Allocations: 12411)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:37 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 10152)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 1.3ms | Allocations: 12328)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:37 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10153)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 1.3ms | Allocations: 12329)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:38 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10205)
+Completed 200 OK in 26ms (Views: 19.0ms | ActiveRecord: 1.3ms | Allocations: 12382)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:39 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10446)
+Completed 200 OK in 26ms (Views: 19.0ms | ActiveRecord: 1.0ms | Allocations: 12624)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:39 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 10274)
+Completed 200 OK in 27ms (Views: 18.1ms | ActiveRecord: 1.2ms | Allocations: 12451)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:39 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10444)
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 1.3ms | Allocations: 12621)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:40 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10272)
+Completed 200 OK in 26ms (Views: 18.2ms | ActiveRecord: 1.2ms | Allocations: 12448)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:40 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 10253)
+Completed 200 OK in 25ms (Views: 18.6ms | ActiveRecord: 0.9ms | Allocations: 12429)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:41 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 10169)
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 1.0ms | Allocations: 12345)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:42 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10235)
+Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 0.9ms | Allocations: 12411)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:42 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10154)
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 1.0ms | Allocations: 12330)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:43 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10248)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 1.3ms | Allocations: 12424)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:43 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10451)
+Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 1.1ms | Allocations: 12629)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:45 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.7ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 10447)
+Completed 200 OK in 38ms (Views: 29.7ms | ActiveRecord: 1.0ms | Allocations: 12625)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:46 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10272)
+Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 1.4ms | Allocations: 12449)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:46 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10443)
+Completed 200 OK in 26ms (Views: 19.1ms | ActiveRecord: 1.0ms | Allocations: 12620)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:47 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 10272)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 1.0ms | Allocations: 12448)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:49 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 10253)
+Completed 200 OK in 26ms (Views: 18.2ms | ActiveRecord: 1.1ms | Allocations: 12429)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:49 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10169)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 1.2ms | Allocations: 12345)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:50 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10235)
+Completed 200 OK in 26ms (Views: 18.8ms | ActiveRecord: 1.2ms | Allocations: 12411)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:50 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 10152)
+Completed 200 OK in 25ms (Views: 18.7ms | ActiveRecord: 1.1ms | Allocations: 12328)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:50 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10448)
+Completed 200 OK in 27ms (Views: 19.7ms | ActiveRecord: 0.9ms | Allocations: 12626)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:51 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 10433)
+Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 1.1ms | Allocations: 12611)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:51 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 10376)
+Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 1.1ms | Allocations: 12554)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:52 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10296)
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 1.0ms | Allocations: 12473)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:52 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 3.4ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 10345)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 1.1ms | Allocations: 12522)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:52 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 10273)
+Completed 200 OK in 26ms (Views: 19.3ms | ActiveRecord: 1.6ms | Allocations: 12450)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:53 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 10251)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 1.4ms | Allocations: 12427)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:54 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10169)
+Completed 200 OK in 25ms (Views: 17.4ms | ActiveRecord: 1.3ms | Allocations: 12345)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:55 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 10237)
+Completed 200 OK in 28ms (Views: 20.1ms | ActiveRecord: 1.1ms | Allocations: 12413)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:55 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 10449)
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 1.1ms | Allocations: 12627)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:56 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10364)
+Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 1.3ms | Allocations: 12542)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:56 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (3.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 10260)
+Completed 200 OK in 29ms (Views: 18.5ms | ActiveRecord: 3.5ms | Allocations: 12438)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:56 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10367)
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 1.1ms | Allocations: 12544)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:57 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 10317)
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 1.0ms | Allocations: 12494)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:57 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10343)
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 1.1ms | Allocations: 12520)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:57 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 10245)
+Completed 200 OK in 25ms (Views: 17.8ms | ActiveRecord: 1.2ms | Allocations: 12421)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:58 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 10247)
+Completed 200 OK in 27ms (Views: 18.3ms | ActiveRecord: 1.3ms | Allocations: 12423)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:59 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10170)
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 1.4ms | Allocations: 12346)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:04:59 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10450)
+Completed 200 OK in 26ms (Views: 17.4ms | ActiveRecord: 1.1ms | Allocations: 12628)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:00 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10362)
+Completed 200 OK in 26ms (Views: 18.8ms | ActiveRecord: 1.2ms | Allocations: 12539)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:00 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10285)
+Completed 200 OK in 26ms (Views: 18.1ms | ActiveRecord: 1.5ms | Allocations: 12463)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:01 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 10344)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 1.6ms | Allocations: 12522)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:01 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 10312)
+Completed 200 OK in 25ms (Views: 17.8ms | ActiveRecord: 1.1ms | Allocations: 12488)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:03 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (2.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 10348)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 2.0ms | Allocations: 12526)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:03 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10285)
+Completed 200 OK in 26ms (Views: 18.8ms | ActiveRecord: 1.2ms | Allocations: 12461)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:04 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 10237)
+Completed 200 OK in 26ms (Views: 17.7ms | ActiveRecord: 1.2ms | Allocations: 12413)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:05 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10174)
+Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 1.4ms | Allocations: 12350)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:05 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 10451)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 1.7ms | Allocations: 12629)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:12 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 10362)
+Completed 200 OK in 28ms (Views: 20.1ms | ActiveRecord: 1.3ms | Allocations: 12539)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:13 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 10286)
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 0.9ms | Allocations: 12464)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:13 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10344)
+Completed 200 OK in 26ms (Views: 18.1ms | ActiveRecord: 1.0ms | Allocations: 12522)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:14 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 10312)
+Completed 200 OK in 65ms (Views: 56.5ms | ActiveRecord: 1.7ms | Allocations: 12488)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:14 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10348)
+Completed 200 OK in 25ms (Views: 17.0ms | ActiveRecord: 1.4ms | Allocations: 12526)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:15 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10280)
+Completed 200 OK in 25ms (Views: 17.2ms | ActiveRecord: 1.4ms | Allocations: 12456)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:15 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10235)
+Completed 200 OK in 26ms (Views: 17.9ms | ActiveRecord: 1.6ms | Allocations: 12411)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:16 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 10174)
+Completed 200 OK in 27ms (Views: 20.1ms | ActiveRecord: 1.3ms | Allocations: 12350)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:16 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 10450)
+Completed 200 OK in 26ms (Views: 18.4ms | ActiveRecord: 1.0ms | Allocations: 12628)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:17 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10362)
+Completed 200 OK in 26ms (Views: 19.1ms | ActiveRecord: 1.2ms | Allocations: 12540)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:17 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 41)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 10285)
+Completed 200 OK in 26ms (Views: 18.1ms | ActiveRecord: 1.9ms | Allocations: 12463)
+
+
+Started GET "/expressions" for ::1 at 2021-12-29 18:05:17 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  ↳ app/controllers/expressions_controller.rb:4:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 10344)
+Completed 200 OK in 24ms (Views: 17.5ms | ActiveRecord: 1.0ms | Allocations: 12522)
+
+
