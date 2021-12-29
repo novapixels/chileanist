@@ -9,18 +9,25 @@ require 'csv'
 
 puts 'Cleaning database'
 Expression.destroy_all
+Option.destroy_all
 
 puts 'parsing CSV seeds'
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'expresiones-cl.csv'))
 csv = CSV.parse(csv_text, :headers => true)
 
-puts 'Looping through the parsed data'
+puts 'Looping through the parsed data to create expressions'
 csv.each do |row|
-  Expression.create(
+  Expression.create!(
     sentence: "#{row['Sentence']}",
-    definition: "#{row['Definition']}",
-    secondoption: "#{row['Secondoption']}",
-    points: "#{row['Point']}"
+    definition: "#{row['Definition']}"
   )
 end
 puts 'All expressions created'
+
+puts 'Looping through the parsed data to create options'
+csv.each do |row|
+  Option.create!(
+    option: "#{row['Definition']}"
+  )
+end
+puts 'All options created'
