@@ -10,6 +10,8 @@ require 'csv'
 puts 'Cleaning database'
 Expression.destroy_all
 Option.destroy_all
+Score.destroy_all
+Quiz.destroy_all
 
 puts 'parsing CSV seeds'
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'expresiones-cl.csv'))
@@ -31,3 +33,6 @@ csv.each do |row|
   )
 end
 puts 'All options created'
+
+Score.create!(points: 0)
+puts 'One score created'
