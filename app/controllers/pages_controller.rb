@@ -21,6 +21,8 @@ class PagesController < ApplicationController
     # get an option based on generated id number
     @option = Option.find(generated_option_id)
     @second_option = @option.option
+
+    #@answer = gets.chomp
   end
 
   # private

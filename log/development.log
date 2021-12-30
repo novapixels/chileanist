@@ -20496,3 +20496,1031 @@ FOREIGN KEY ("option_id")
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[36mScore Create (1.1ms)[0m  [1m[32mINSERT INTO "scores" ("points", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["points", 0], ["created_at", "2021-12-30 17:02:55.534475"], ["updated_at", "2021-12-30 17:02:55.534475"]]
   [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2021-12-30 18:32:24 +0100
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 38194)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.0ms | Allocations: 40764)
+
+
+Started GET "/" for ::1 at 2021-12-30 18:32:24 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.7ms | Allocations: 782)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 16493)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 16905)
+
+
+Started GET "/expressions" for ::1 at 2021-12-30 18:32:56 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:7:in `index'
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 228], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:10:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 10962)
+Completed 200 OK in 40ms (Views: 14.4ms | ActiveRecord: 11.6ms | Allocations: 18116)
+
+
+Started GET "/expressions" for ::1 at 2021-12-30 18:32:57 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:7:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 257], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:10:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10724)
+Completed 200 OK in 28ms (Views: 19.1ms | ActiveRecord: 2.9ms | Allocations: 13175)
+
+
+Started GET "/expressions" for ::1 at 2021-12-30 18:32:58 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:7:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 227], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:10:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 10153)
+Completed 200 OK in 27ms (Views: 18.4ms | ActiveRecord: 3.1ms | Allocations: 12577)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:02 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 241], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.3ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 297], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 5.9ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 10283)
+Completed 200 OK in 56ms (Views: 28.4ms | ActiveRecord: 10.7ms | Allocations: 17003)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:04 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 236], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10153)
+Completed 200 OK in 29ms (Views: 17.0ms | ActiveRecord: 4.7ms | Allocations: 14491)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:08 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 278], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 229], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10274)
+Completed 200 OK in 34ms (Views: 17.1ms | ActiveRecord: 6.4ms | Allocations: 15224)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:09 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 280], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 244], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10150)
+Completed 200 OK in 33ms (Views: 18.8ms | ActiveRecord: 5.2ms | Allocations: 14469)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:09 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 296], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.2ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 212], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10151)
+Completed 200 OK in 34ms (Views: 19.2ms | ActiveRecord: 5.6ms | Allocations: 14470)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:10 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 252], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.2ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10445)
+Completed 200 OK in 39ms (Views: 18.7ms | ActiveRecord: 5.8ms | Allocations: 14768)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:10 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 295], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 259], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 10150)
+Completed 200 OK in 31ms (Views: 17.2ms | ActiveRecord: 5.1ms | Allocations: 14470)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:11 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 264], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 240], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 10228)
+Completed 200 OK in 29ms (Views: 15.4ms | ActiveRecord: 5.0ms | Allocations: 14548)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:11 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 295], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 10151)
+Completed 200 OK in 29ms (Views: 15.7ms | ActiveRecord: 5.2ms | Allocations: 14471)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:33:11 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 269], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 262], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 10150)
+Completed 200 OK in 29ms (Views: 15.7ms | ActiveRecord: 5.0ms | Allocations: 14470)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:17 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 234], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (3.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 200], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 496)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 10155)
+Completed 200 OK in 35ms (Views: 13.5ms | ActiveRecord: 8.9ms | Allocations: 14474)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:17 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 209], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 239], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 10271)
+Completed 200 OK in 30ms (Views: 16.1ms | ActiveRecord: 5.4ms | Allocations: 14596)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:18 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 244], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 219], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10321)
+Completed 200 OK in 32ms (Views: 18.8ms | ActiveRecord: 4.7ms | Allocations: 14640)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:18 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 229], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 213], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 10328)
+Completed 200 OK in 32ms (Views: 19.0ms | ActiveRecord: 4.8ms | Allocations: 14650)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:19 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 261], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 217], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 10442)
+Completed 200 OK in 29ms (Views: 15.5ms | ActiveRecord: 5.0ms | Allocations: 14766)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:19 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 237], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.3ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.3ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 258], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10152)
+Completed 200 OK in 54ms (Views: 19.4ms | ActiveRecord: 6.4ms | Allocations: 14470)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:20 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 251], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 202], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 10227)
+Completed 200 OK in 29ms (Views: 15.0ms | ActiveRecord: 4.8ms | Allocations: 14546)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:20 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 282], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 200], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 10150)
+Completed 200 OK in 29ms (Views: 15.5ms | ActiveRecord: 4.8ms | Allocations: 14468)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:21 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 289], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.2ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 290], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 10150)
+Completed 200 OK in 28ms (Views: 14.8ms | ActiveRecord: 5.1ms | Allocations: 14469)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:22 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 216], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 257], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 10153)
+Completed 200 OK in 30ms (Views: 15.2ms | ActiveRecord: 5.4ms | Allocations: 14471)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:23 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 229], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 278], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 10196)
+Completed 200 OK in 30ms (Views: 15.9ms | ActiveRecord: 5.4ms | Allocations: 14517)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 18:34:24 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 281], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 280], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.1ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10283)
+Completed 200 OK in 33ms (Views: 18.7ms | ActiveRecord: 5.5ms | Allocations: 14604)
+
+
+Started GET "/expressions" for ::1 at 2021-12-30 19:07:42 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:7:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 234], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:10:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.7ms | Allocations: 584)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 10924)
+Completed 200 OK in 75ms (Views: 34.9ms | ActiveRecord: 17.4ms | Allocations: 17316)
+
+
+Started GET "/expressions" for ::1 at 2021-12-30 19:07:45 +0100
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:7:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:10:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 10157)
+Completed 200 OK in 25ms (Views: 17.8ms | ActiveRecord: 2.3ms | Allocations: 12579)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 19:07:48 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 260], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 292], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 55.9ms | Allocations: 14213)
+  Rendered layout layouts/application.html.erb (Duration: 56.1ms | Allocations: 14277)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 5.0ms | Allocations: 19076)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    3: 
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for @quiz do |f| %>
+    7:         <%= f.input :username %>
+    8:         <%= f.input :password %>
+    9:         <%= f.input :description, as: :text %>
+  
+app/views/pages/quiz.html.erb:6
+Started GET "/quiz" for ::1 at 2021-12-30 19:08:02 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 287], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.2ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.4ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.2ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 234], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 40.9ms | Allocations: 9272)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 9336)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 6.1ms | Allocations: 14339)
+
+
+  
+ActionView::Template::Error (undefined method `username' for #<Expression:0x000000012da68e88>):
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for @expression do |f| %>
+    7:         <%= f.input :username %>
+    8:         <%= f.input :password %>
+    9:         <%= f.input :description, as: :text %>
+   10:         <%= f.input :accepts,     as: :radio_buttons %>
+  
+app/views/pages/quiz.html.erb:7
+app/views/pages/quiz.html.erb:6
+Started GET "/quiz" for ::1 at 2021-12-30 19:09:27 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 265], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 231], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 30.4ms | Allocations: 8055)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 8119)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 6.1ms | Allocations: 13119)
+
+
+  
+ActionView::Template::Error (undefined method `accepts' for #<Expression:0x000000011f8a50a0>):
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for @expression do |f| %>
+    7:         <%= f.input :accepts, as: :radio_buttons, collection: [@definition, @second_option] %>
+    8:         <%= f.button :submit, label: 'Siguiente', class: 'btn btn-lg btn-custom fw-bold' %>
+    9:       <% end %>
+   10:     </div>
+  
+app/views/pages/quiz.html.erb:7
+app/views/pages/quiz.html.erb:6
+Started GET "/quiz" for ::1 at 2021-12-30 19:12:05 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 271], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.5ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.5ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.5ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 219], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+Started GET "/quiz" for ::1 at 2021-12-30 19:12:24 +0100
+Completed 500 Internal Server Error in 30689ms (ActiveRecord: 16.9ms | Allocations: 12836)
+
+
+  
+Errno::EIO (Input/output error @ io_fillbuf - fd:0 <STDIN>):
+  
+app/controllers/pages_controller.rb:25:in `gets'
+app/controllers/pages_controller.rb:25:in `gets'
+app/controllers/pages_controller.rb:25:in `quiz'
+Started GET "/" for ::1 at 2021-12-30 19:12:35 +0100
+Processing by PagesController#quiz as HTML
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 173)
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 235], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.3ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.3ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.3ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 296], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 10.5ms | Allocations: 26828)
+
+
+  
+Errno::EIO (Input/output error @ io_fillbuf - fd:0 <STDIN>):
+  
+app/controllers/pages_controller.rb:25:in `gets'
+app/controllers/pages_controller.rb:25:in `gets'
+app/controllers/pages_controller.rb:25:in `quiz'
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 4417)
+  Rendered layout layouts/application.html.erb (Duration: 51.0ms | Allocations: 86617)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 88874)
+
+
+Started GET "/" for ::1 at 2021-12-30 19:12:44 +0100
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 618)
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 38153)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.0ms | Allocations: 40723)
+
+
+Started GET "/" for ::1 at 2021-12-30 19:12:45 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 497)
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 10199)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 10580)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 19:12:49 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 277], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.4ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (1.0ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.7ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 254], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+Started GET "/quiz" for ::1 at 2021-12-30 19:12:53 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 288], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.8ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 233], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+Started GET "/" for ::1 at 2021-12-30 19:13:44 +0100
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 2.5ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 10410)
+Completed 200 OK in 353249ms (Views: 37.0ms | ActiveRecord: 18.2ms | Allocations: 34487)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.4ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10152)
+Completed 200 OK in 360217ms (Views: 18.1ms | ActiveRecord: 17.9ms | Allocations: 58212)
+
+
+Started GET "/" for ::1 at 2021-12-30 19:18:49 +0100
+Started GET "/" for ::1 at 2021-12-30 19:18:49 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 581)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 10658)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 11750)
+
+
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 76)
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 19889)
+Completed 200 OK in 14ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 20508)
+
+
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 877)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 21074)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 21566)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 19:19:01 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 251], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.6ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.3ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.3ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 293], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 0.5ms | Allocations: 289)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.7ms | Allocations: 616)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 38077)
+Completed 200 OK in 71ms (Views: 47.4ms | ActiveRecord: 11.6ms | Allocations: 50928)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 19:19:13 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (3.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 212], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (1.1ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (3.6ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (1.3ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 234], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 27.3ms | Allocations: 12974)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 13039)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 12.3ms | Allocations: 18068)
+
+
+  
+ActionView::Template::Error (undefined method `answer' for #<Expression:0x0000000105582680>):
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for @expression do |f| %>
+    7:         <%= f.input :answer, as: :radio_buttons, collection: [@definition, @second_option] %>
+    8:         <%= f.button :submit, label: 'Siguiente', class: 'btn btn-lg btn-custom fw-bold' %>
+    9:       <% end %>
+   10:     </div>
+  
+app/views/pages/quiz.html.erb:7
+app/views/pages/quiz.html.erb:6
+Started GET "/quiz" for ::1 at 2021-12-30 19:19:34 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 208], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.5ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.5ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 261], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+Started GET "/" for ::1 at 2021-12-30 19:21:25 +0100
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 19.6ms | Allocations: 5507)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 5572)
+Completed 500 Internal Server Error in 148834ms (ActiveRecord: 13.3ms | Allocations: 24598)
+
+
+  
+ActionView::Template::Error (undefined method `answer' for #<Expression:0x00000001036c7920>):
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for ([@expression, @option]) do |f| %>
+    7:         <%= f.input :answer, as: :radio_buttons, collection: [@definition, @second_option] %>
+    8:         <%= f.button :submit, label: 'Siguiente', class: 'btn btn-lg btn-custom fw-bold' %>
+    9:       <% end %>
+   10:     </div>
+  
+app/views/pages/quiz.html.erb:7
+app/views/pages/quiz.html.erb:6
+Started GET "/" for ::1 at 2021-12-30 19:22:03 +0100
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 187)
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 266)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 887)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 1125)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 21235)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 21228)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 23083)
+
+
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 22332)
+
+
+Started GET "/" for ::1 at 2021-12-30 19:22:16 +0100
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 38272)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 40842)
+
+
+Started GET "/quiz" for ::1 at 2021-12-30 19:22:23 +0100
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (2.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 231], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+  [1m[36mOption Load (0.7ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `quiz'
+  [1m[36mOption Load (0.4ms)[0m  [1m[34mSELECT "options".* FROM "options" ORDER BY "options"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18:in `quiz'
+  [1m[36mOption Load (0.9ms)[0m  [1m[34mSELECT "options".* FROM "options" WHERE "options"."id" = $1 LIMIT $2[0m  [["id", 249], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:22:in `quiz'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/quiz.html.erb within layouts/application
+  Rendered pages/quiz.html.erb within layouts/application (Duration: 35.0ms | Allocations: 9728)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 9793)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 18.2ms | Allocations: 20706)
+
+
+  
+ActionView::Template::Error (undefined method `expression_option_path' for #<ActionView::Base:0x00000000009678>
+Did you mean?  expression_path):
+    3: 
+    4:   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
+    5:     <div class="px-3 main-content-center">
+    6:       <%= simple_form_for ([@expression, @option]) do |f| %>
+    7:         <%= f.input :answer, as: :radio_buttons, collection: [@definition, @second_option] %>
+    8:         <%= f.button :submit, label: 'Siguiente', class: 'btn btn-lg btn-custom fw-bold' %>
+    9:       <% end %>
+  
+app/views/pages/quiz.html.erb:6

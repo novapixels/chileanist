@@ -3,6 +3,13 @@
 
   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
     <div class="px-3 main-content-center">
+      <%= simple_form_for @expression do |f| %>
+        <%= f.input :answer, as: :radio_buttons, collection: [@definition, @second_option] %>
+        <%= f.button :submit, label: 'Siguiente', class: 'btn btn-lg btn-custom fw-bold' %>
+      <% end %>
+    </div>
+
+    <div class="px-3 main-content-center">
       <h2><%= @sentence %></h2>
       <p class="lead"><%= @definition %></p>
       <p>o</p>
