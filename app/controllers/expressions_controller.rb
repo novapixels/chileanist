@@ -1,7 +1,6 @@
 class ExpressionsController < ApplicationController
   def index
     @expressions = Expression.all
-
     # generate a number betweem first and last expresion id
     init_num = Expression.first.id
     last_num = Expression.last.id

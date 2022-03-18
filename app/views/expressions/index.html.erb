@@ -1,5 +1,6 @@
   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
     <div class="px-3 main-content-center">
+
       <h1><%= @expressionsample.sentence %></h1>
       <p class="lead"><%= @expressionsample.definition %></p>
       <p class="lead">
@@ -7,3 +8,10 @@
       </p>
     </div>
   </div>
+
+
+<%= turbo_frame_tag @todo do %>
+  <p><%= @todo.description %></p>
+
+  <%= link_to 'Edit this todo', edit_todo_path(@todo) %>
+<% end %>
