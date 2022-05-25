@@ -22834,3 +22834,91 @@ Processing by ExpressionsController#index as HTML
 Completed 200 OK in 28ms (Views: 18.1ms | ActiveRecord: 3.5ms | Allocations: 12759)
 
 
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:11:45 +0200
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 425)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 605)
+  Rendered layout layouts/application.html.erb (Duration: 936.9ms | Allocations: 194966)
+Completed 200 OK in 946ms (Views: 939.6ms | ActiveRecord: 0.0ms | Allocations: 201157)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-05-25 18:11:48 +0200
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (2.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 276], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2316)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2381)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 23.5ms | Allocations: 10488)
+
+
+  
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    11: 
+    12: 
+    13: <%= turbo_frame_tag @todo do %>
+    14:   <p><%= @todo.description %></p>
+    15: 
+    16:   <%= link_to 'Edit this todo', edit_todo_path(@todo) %>
+    17: <% end %>
+  
+app/views/expressions/index.html.erb:14
+app/views/expressions/index.html.erb:13
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:11:55 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10681)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 11060)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-05-25 18:12:03 +0200
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 262], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1534)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1598)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.8ms | Allocations: 3996)
+
+
+  
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    11: 
+    12: 
+    13: <%= turbo_frame_tag @todo do %>
+    14:   <p><%= @todo.description %></p>
+    15: 
+    16:   <%= link_to 'Edit this todo', edit_todo_path(@todo) %>
+    17: <% end %>
+  
+app/views/expressions/index.html.erb:14
+app/views/expressions/index.html.erb:13
+Started GET "/" for 127.0.0.1 at 2022-05-25 18:12:17 +0200
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10768)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 11154)
+
+
