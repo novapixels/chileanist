@@ -1,13 +1,12 @@
   <div class="cover-container w-100 h-100 p-3 d-flex text-center flex-column justify-content-center align-items-center">
     <div class="px-3 main-content-center">
 
-      <h1><%= @expressionsample.sentence %></h1>
-      <p class="lead"><%= @expressionsample.definition %></p>
+      <%= turbo_frame_tag "expression_turbo_frame" do %>
+        <%= render "expression" %>
+      <% end %>
       <p class="lead">
-        <a href="#" class="btn btn-lg btn-custom fw-bold">Muéstrame otro</a>
+        <%= link_to "Otro más", expressions_path(@expressionsample), data: { turbo_frame: "expression_turbo_frame"}, class: "btn btn-lg btn-custom fw-bold"%>
       </p>
-    </div>
-    <div class="px-3 main-content-center">
-      <%= render "expression" %>
+
     </div>
   </div>
