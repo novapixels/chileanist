@@ -1,3 +1,5 @@
-<%= turbo_frame_tag(@expressionsample) do %>
+<%= turbo_frame_tag "expression_turbo_frame" do %>
+  <h1><%= @expressionsample.sentence %></h1>
+  <p class="lead"><%= @expressionsample.definition %></p>
 
 <% end %>
