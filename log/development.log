@@ -50039,3 +50039,80 @@ Processing by ExpressionsController#index as */*
 Completed 200 OK in 28ms (Views: 20.8ms | ActiveRecord: 2.5ms | Allocations: 13318)
 
 
+Started GET "/" for 127.0.0.1 at 2022-09-14 15:13:40 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.4ms | Allocations: 123)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 609)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 47336)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.0ms | Allocations: 49936)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-14 15:13:40 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 10521)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 10905)
+
+
+Started GET "/quizz" for 127.0.0.1 at 2022-09-14 15:13:44 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/quizz"):
+  
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 15:13:47 -0300
+  
+ActionController::RoutingError (uninitialized constant QuizzesController
+Did you mean?  PagesController):
+  
+Started GET "/quiz" for 127.0.0.1 at 2022-09-14 15:13:56 -0300
+Processing by PagesController#quiz as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:7:in `quiz'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:8:in `quiz'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 90], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:12:in `quiz'
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 11.4ms | Allocations: 7782)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "options" does not exist
+LINE 1: SELECT "options".* FROM "options" ORDER BY "options"."id" AS...
+                                ^
+):
+  
+app/controllers/pages_controller.rb:17:in `quiz'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 15:16:46 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 11494)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 12513)
+
+
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 15:17:32 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/show.html.erb within layouts/application
+  Rendered quizzes/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 10536)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 11018)
+
+

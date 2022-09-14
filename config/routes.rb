@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   get 'quiz', to: 'pages#quiz'
 
-  resources :expressions, only: [:index, :show, :quiz]
+  resources :expressions, only: [:index, :show]
+  resources :quizzes, only: [:index, :show]
 end
