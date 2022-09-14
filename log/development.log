@@ -47874,3 +47874,2168 @@ Processing by ExpressionsController#index as */*
 Completed 200 OK in 134ms (Views: 56.7ms | ActiveRecord: 3.4ms | Allocations: 13320)
 
 
+Started GET "/" for 127.0.0.1 at 2022-09-14 13:35:03 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.3ms | Allocations: 123)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 609)
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 47426)
+Completed 200 OK in 70ms (Views: 66.8ms | ActiveRecord: 0.0ms | Allocations: 50026)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-14 13:35:03 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.4ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 10521)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 10905)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-09-14 13:35:05 -0300
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 303], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.6ms | Allocations: 202)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 690)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 11453)
+Completed 200 OK in 63ms (Views: 17.1ms | ActiveRecord: 16.0ms | Allocations: 19370)
+
+
+Started GET "/expressions.303" for 127.0.0.1 at 2022-09-14 13:35:06 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 364], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 11098)
+Completed 200 OK in 28ms (Views: 20.4ms | ActiveRecord: 2.4ms | Allocations: 13711)
+
+
+Started GET "/expressions.364" for 127.0.0.1 at 2022-09-14 13:35:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 308], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 10688)
+Completed 200 OK in 32ms (Views: 24.8ms | ActiveRecord: 2.4ms | Allocations: 13137)
+
+
+Started GET "/expressions.308" for 127.0.0.1 at 2022-09-14 13:35:10 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 350], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 11050)
+Completed 200 OK in 41ms (Views: 29.9ms | ActiveRecord: 4.0ms | Allocations: 13516)
+
+
+Started GET "/expressions.350" for 127.0.0.1 at 2022-09-14 13:35:11 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (2.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 337], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 11046)
+Completed 200 OK in 31ms (Views: 21.6ms | ActiveRecord: 3.6ms | Allocations: 13497)
+
+
+Started GET "/expressions.337" for 127.0.0.1 at 2022-09-14 13:35:12 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 319], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10685)
+Completed 200 OK in 29ms (Views: 21.1ms | ActiveRecord: 2.2ms | Allocations: 13133)
+
+
+Started GET "/expressions.319" for 127.0.0.1 at 2022-09-14 13:35:14 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 370], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 10691)
+Completed 200 OK in 31ms (Views: 24.2ms | ActiveRecord: 2.4ms | Allocations: 13161)
+
+
+Started GET "/expressions.370" for 127.0.0.1 at 2022-09-14 13:35:15 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 356], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 11011)
+Completed 200 OK in 33ms (Views: 23.6ms | ActiveRecord: 3.2ms | Allocations: 13463)
+
+
+Started GET "/expressions.356" for 127.0.0.1 at 2022-09-14 13:35:16 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 388], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 10869)
+Completed 200 OK in 28ms (Views: 21.3ms | ActiveRecord: 2.0ms | Allocations: 13318)
+
+
+Started GET "/expressions.388" for 127.0.0.1 at 2022-09-14 13:35:37 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 341], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 10690)
+Completed 200 OK in 29ms (Views: 19.6ms | ActiveRecord: 3.5ms | Allocations: 13138)
+
+
+Started GET "/expressions.341" for 127.0.0.1 at 2022-09-14 13:35:40 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 317], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 11050)
+Completed 200 OK in 30ms (Views: 22.5ms | ActiveRecord: 2.3ms | Allocations: 13502)
+
+
+Started GET "/expressions.317" for 127.0.0.1 at 2022-09-14 13:35:41 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 377], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 11046)
+Completed 200 OK in 27ms (Views: 18.6ms | ActiveRecord: 2.6ms | Allocations: 13496)
+
+
+Started GET "/expressions.377" for 127.0.0.1 at 2022-09-14 13:35:42 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 341], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 10871)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 2.2ms | Allocations: 13320)
+
+
+Started GET "/expressions.341" for 127.0.0.1 at 2022-09-14 13:35:42 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 382], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 11049)
+Completed 200 OK in 31ms (Views: 24.4ms | ActiveRecord: 2.0ms | Allocations: 13498)
+
+
+Started GET "/expressions.382" for 127.0.0.1 at 2022-09-14 13:35:42 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 312], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 11049)
+Completed 200 OK in 29ms (Views: 19.7ms | ActiveRecord: 2.9ms | Allocations: 13500)
+
+
+Started GET "/expressions.312" for 127.0.0.1 at 2022-09-14 13:35:43 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 322], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 11045)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 2.2ms | Allocations: 13494)
+
+
+Started GET "/expressions.322" for 127.0.0.1 at 2022-09-14 13:35:43 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 394], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10968)
+Completed 200 OK in 30ms (Views: 23.3ms | ActiveRecord: 2.2ms | Allocations: 13417)
+
+
+Started GET "/expressions.394" for 127.0.0.1 at 2022-09-14 13:35:43 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 327], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 11048)
+Completed 200 OK in 29ms (Views: 21.5ms | ActiveRecord: 2.2ms | Allocations: 13498)
+
+
+Started GET "/expressions.327" for 127.0.0.1 at 2022-09-14 13:35:48 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 324], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 10965)
+Completed 200 OK in 47ms (Views: 33.7ms | ActiveRecord: 2.6ms | Allocations: 13413)
+
+
+Started GET "/expressions.324" for 127.0.0.1 at 2022-09-14 13:35:49 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (2.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (2.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 328], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 10693)
+Completed 200 OK in 44ms (Views: 30.8ms | ActiveRecord: 5.9ms | Allocations: 13155)
+
+
+Started GET "/expressions.328" for 127.0.0.1 at 2022-09-14 13:35:49 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 341], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 10970)
+Completed 200 OK in 29ms (Views: 21.8ms | ActiveRecord: 2.1ms | Allocations: 13419)
+
+
+Started GET "/expressions.341" for 127.0.0.1 at 2022-09-14 13:35:49 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 344], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 10847)
+Completed 200 OK in 28ms (Views: 20.0ms | ActiveRecord: 2.1ms | Allocations: 13296)
+
+
+Started GET "/expressions.344" for 127.0.0.1 at 2022-09-14 13:35:50 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 333], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 10887)
+Completed 200 OK in 30ms (Views: 21.9ms | ActiveRecord: 2.6ms | Allocations: 13336)
+
+
+Started GET "/expressions.333" for 127.0.0.1 at 2022-09-14 13:35:50 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 301], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 11050)
+Completed 200 OK in 27ms (Views: 18.6ms | ActiveRecord: 2.7ms | Allocations: 13500)
+
+
+Started GET "/expressions.301" for 127.0.0.1 at 2022-09-14 13:35:50 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 385], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 10969)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 2.4ms | Allocations: 13418)
+
+
+Started GET "/expressions.385" for 127.0.0.1 at 2022-09-14 13:35:50 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 316], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 11022)
+Completed 200 OK in 25ms (Views: 18.1ms | ActiveRecord: 2.5ms | Allocations: 13471)
+
+
+Started GET "/expressions.316" for 127.0.0.1 at 2022-09-14 13:35:51 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 339], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 10888)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 2.2ms | Allocations: 13337)
+
+
+Started GET "/expressions.339" for 127.0.0.1 at 2022-09-14 13:35:51 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 357], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 11047)
+Completed 200 OK in 48ms (Views: 39.7ms | ActiveRecord: 2.8ms | Allocations: 13497)
+
+
+Started GET "/expressions.357" for 127.0.0.1 at 2022-09-14 13:35:51 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 380], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 10967)
+Completed 200 OK in 28ms (Views: 19.7ms | ActiveRecord: 3.2ms | Allocations: 13416)
+
+
+Started GET "/expressions.380" for 127.0.0.1 at 2022-09-14 13:35:51 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 307], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 10867)
+Completed 200 OK in 26ms (Views: 19.2ms | ActiveRecord: 2.1ms | Allocations: 13316)
+
+
+Started GET "/expressions.380" for 127.0.0.1 at 2022-09-14 14:27:38 -0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 338], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 206)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.3ms | Allocations: 121)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 609)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 47991)
+Completed 200 OK in 63ms (Views: 46.4ms | ActiveRecord: 7.1ms | Allocations: 56853)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-14 14:27:43 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 7.3ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 11454)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 12348)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-09-14 14:27:44 -0300
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 300], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 357)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10976)
+Completed 200 OK in 31ms (Views: 19.0ms | ActiveRecord: 4.5ms | Allocations: 14198)
+
+
+Started GET "/expressions.300" for 127.0.0.1 at 2022-09-14 14:27:49 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 346], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 10685)
+Completed 200 OK in 33ms (Views: 24.2ms | ActiveRecord: 2.6ms | Allocations: 13147)
+
+
+Started GET "/expressions.346" for 127.0.0.1 at 2022-09-14 14:27:52 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 359], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 10687)
+Completed 200 OK in 32ms (Views: 22.7ms | ActiveRecord: 3.2ms | Allocations: 13157)
+
+
+Started GET "/expressions.359" for 127.0.0.1 at 2022-09-14 14:27:52 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (9.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 364], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 11052)
+Completed 200 OK in 39ms (Views: 20.8ms | ActiveRecord: 11.5ms | Allocations: 13503)
+
+
+Started GET "/expressions.364" for 127.0.0.1 at 2022-09-14 14:27:53 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 395], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 10869)
+Completed 200 OK in 30ms (Views: 22.7ms | ActiveRecord: 2.3ms | Allocations: 13318)
+
+
+Started GET "/expressions.395" for 127.0.0.1 at 2022-09-14 14:27:53 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 346], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 10689)
+Completed 200 OK in 29ms (Views: 21.2ms | ActiveRecord: 2.7ms | Allocations: 13158)
+
+
+Started GET "/expressions.346" for 127.0.0.1 at 2022-09-14 14:27:53 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 316], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10782)
+Completed 200 OK in 32ms (Views: 24.8ms | ActiveRecord: 2.4ms | Allocations: 13231)
+
+
+Started GET "/expressions.316" for 127.0.0.1 at 2022-09-14 14:27:54 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 339], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 10951)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 2.3ms | Allocations: 13424)
+
+
+Started GET "/expressions.339" for 127.0.0.1 at 2022-09-14 14:27:59 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 332], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 10688)
+Completed 200 OK in 28ms (Views: 19.5ms | ActiveRecord: 2.8ms | Allocations: 13136)
+
+
+Started GET "/expressions.332" for 127.0.0.1 at 2022-09-14 14:27:59 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 335], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 3.0ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 10688)
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 2.3ms | Allocations: 13137)
+
+
+Started GET "/expressions.335" for 127.0.0.1 at 2022-09-14 14:28:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (2.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 379], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.4ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 10954)
+Completed 200 OK in 33ms (Views: 24.2ms | ActiveRecord: 3.7ms | Allocations: 13405)
+
+
+Started GET "/expressions.379" for 127.0.0.1 at 2022-09-14 14:28:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 396], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10869)
+Completed 200 OK in 24ms (Views: 17.6ms | ActiveRecord: 2.2ms | Allocations: 13319)
+
+
+Started GET "/expressions.396" for 127.0.0.1 at 2022-09-14 14:28:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 338], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 10686)
+Completed 200 OK in 29ms (Views: 20.4ms | ActiveRecord: 3.1ms | Allocations: 13134)
+
+
+Started GET "/expressions.338" for 127.0.0.1 at 2022-09-14 14:28:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 305], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 11061)
+Completed 200 OK in 31ms (Views: 22.5ms | ActiveRecord: 3.2ms | Allocations: 13513)
+
+
+Started GET "/expressions.305" for 127.0.0.1 at 2022-09-14 14:28:01 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 374], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 10949)
+Completed 200 OK in 28ms (Views: 20.3ms | ActiveRecord: 2.6ms | Allocations: 13400)
+
+
+Started GET "/expressions.374" for 127.0.0.1 at 2022-09-14 14:28:01 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 337], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 10869)
+Completed 200 OK in 30ms (Views: 22.7ms | ActiveRecord: 2.3ms | Allocations: 13319)
+
+
+Started GET "/expressions.337" for 127.0.0.1 at 2022-09-14 14:28:02 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 327], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 10867)
+Completed 200 OK in 32ms (Views: 23.8ms | ActiveRecord: 2.6ms | Allocations: 13316)
+
+
+Started GET "/expressions.327" for 127.0.0.1 at 2022-09-14 14:28:02 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 319], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 11048)
+Completed 200 OK in 26ms (Views: 19.8ms | ActiveRecord: 2.0ms | Allocations: 13499)
+
+
+Started GET "/expressions.319" for 127.0.0.1 at 2022-09-14 14:28:03 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 384], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 10952)
+Completed 200 OK in 28ms (Views: 21.1ms | ActiveRecord: 2.0ms | Allocations: 13402)
+
+
+Started GET "/expressions.384" for 127.0.0.1 at 2022-09-14 14:28:03 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 380], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10734)
+Completed 200 OK in 30ms (Views: 22.1ms | ActiveRecord: 2.4ms | Allocations: 13183)
+
+
+Started GET "/expressions.380" for 127.0.0.1 at 2022-09-14 14:28:03 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 335], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 11049)
+Completed 200 OK in 27ms (Views: 19.0ms | ActiveRecord: 2.1ms | Allocations: 13500)
+
+
+Started GET "/expressions.335" for 127.0.0.1 at 2022-09-14 14:28:03 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (2.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 361], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 10913)
+Completed 200 OK in 45ms (Views: 30.2ms | ActiveRecord: 5.1ms | Allocations: 13362)
+
+
+Started GET "/expressions.361" for 127.0.0.1 at 2022-09-14 14:28:04 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (2.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (2.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 328], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 10693)
+Completed 200 OK in 52ms (Views: 35.2ms | ActiveRecord: 5.3ms | Allocations: 13142)
+
+
+Started GET "/expressions.328" for 127.0.0.1 at 2022-09-14 14:28:04 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 347], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 10918)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 1.1ms | Allocations: 13367)
+
+
+Started GET "/expressions.347" for 127.0.0.1 at 2022-09-14 14:28:04 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 313], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 10929)
+Completed 200 OK in 27ms (Views: 20.6ms | ActiveRecord: 2.3ms | Allocations: 13379)
+
+
+Started GET "/expressions.313" for 127.0.0.1 at 2022-09-14 14:28:05 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 329], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 10950)
+Completed 200 OK in 27ms (Views: 19.6ms | ActiveRecord: 2.5ms | Allocations: 13400)
+
+
+Started GET "/expressions.329" for 127.0.0.1 at 2022-09-14 14:28:05 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 304], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 11050)
+Completed 200 OK in 33ms (Views: 20.3ms | ActiveRecord: 2.6ms | Allocations: 13501)
+
+
+Started GET "/expressions.304" for 127.0.0.1 at 2022-09-14 14:28:05 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 302], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 10918)
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 2.4ms | Allocations: 13367)
+
+
+Started GET "/expressions.302" for 127.0.0.1 at 2022-09-14 14:28:06 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 302], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 264)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 11019)
+Completed 200 OK in 29ms (Views: 20.4ms | ActiveRecord: 2.6ms | Allocations: 13469)
+
+
+Started GET "/expressions.302" for 127.0.0.1 at 2022-09-14 14:28:06 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 303], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 10993)
+Completed 200 OK in 31ms (Views: 24.7ms | ActiveRecord: 2.1ms | Allocations: 13443)
+
+
+Started GET "/expressions.303" for 127.0.0.1 at 2022-09-14 14:28:06 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 358], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 11060)
+Completed 200 OK in 29ms (Views: 22.5ms | ActiveRecord: 2.1ms | Allocations: 13512)
+
+
+Started GET "/expressions.358" for 127.0.0.1 at 2022-09-14 14:28:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 327], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10915)
+Completed 200 OK in 27ms (Views: 17.5ms | ActiveRecord: 3.7ms | Allocations: 13364)
+
+
+Started GET "/expressions.327" for 127.0.0.1 at 2022-09-14 14:28:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 361], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 10960)
+Completed 200 OK in 35ms (Views: 26.0ms | ActiveRecord: 2.6ms | Allocations: 13422)
+
+
+Started GET "/expressions.361" for 127.0.0.1 at 2022-09-14 14:28:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 345], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10996)
+Completed 200 OK in 25ms (Views: 17.5ms | ActiveRecord: 2.3ms | Allocations: 13445)
+
+
+Started GET "/expressions.345" for 127.0.0.1 at 2022-09-14 14:28:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 311], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 10995)
+Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 2.2ms | Allocations: 13445)
+
+
+Started GET "/expressions.311" for 127.0.0.1 at 2022-09-14 14:28:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 358], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 10968)
+Completed 200 OK in 26ms (Views: 20.0ms | ActiveRecord: 1.9ms | Allocations: 13418)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (71.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "chileanist_development"[0m
+  [1m[35m (24.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "chileanist_test"[0m
+  [1m[35m (131.9ms)[0m  [1m[35mCREATE DATABASE "chileanist_development" ENCODING = 'unicode'[0m
+  [1m[35m (39.1ms)[0m  [1m[35mCREATE DATABASE "chileanist_test" ENCODING = 'unicode'[0m
+  [1m[35m (10.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(918152529321631380)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateExpressions (20220914175540)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "expressions" ("id" bigserial primary key, "sentence" character varying, "definition" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220914175540"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateScores (20220914175640)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "scores" ("id" bigserial primary key, "points" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220914175640"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateQuizzes (20220914175839)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "quizzes" ("id" bigserial primary key, "expression_id" bigint NOT NULL, "score_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_e2de7bfe9c"
+FOREIGN KEY ("expression_id")
+  REFERENCES "expressions" ("id")
+, CONSTRAINT "fk_rails_41fed320fc"
+FOREIGN KEY ("score_id")
+  REFERENCES "scores" ("id")
+)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE INDEX "index_quizzes_on_expression_id" ON "quizzes" ("expression_id")[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE INDEX "index_quizzes_on_score_id" ON "quizzes" ("score_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220914175839"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-14 18:00:09.006826"], ["updated_at", "2022-09-14 18:00:09.006826"]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(918152529321631380)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  [1m[36mOption Load (7.5ms)[0m  [1m[34mSELECT "options".* FROM "options"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions"[0m
+  [1m[36mScore Load (5.4ms)[0m  [1m[34mSELECT "scores".* FROM "scores"[0m
+  [1m[36mQuiz Load (4.0ms)[0m  [1m[34mSELECT "quizzes".* FROM "quizzes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.8ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Al tiro"], ["definition", "En seguida"], ["created_at", "2022-09-14 18:01:44.442596"], ["updated_at", "2022-09-14 18:01:44.442596"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Arriba de la pelota"], ["definition", "Borracho o ebrio"], ["created_at", "2022-09-14 18:01:44.445848"], ["updated_at", "2022-09-14 18:01:44.445848"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Quedar raja"], ["definition", "Muy ebrio o borracho"], ["created_at", "2022-09-14 18:01:44.447536"], ["updated_at", "2022-09-14 18:01:44.447536"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.4ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar con la caña"], ["definition", "Tener resaca"], ["created_at", "2022-09-14 18:01:44.449321"], ["updated_at", "2022-09-14 18:01:44.449321"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Yendo en la profundidad"], ["definition", "Filosofar o meditar profundamente sobre los vaivenes de la vida"], ["created_at", "2022-09-14 18:01:44.451224"], ["updated_at", "2022-09-14 18:01:44.451224"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Apretar cachete"], ["definition", "Correr apurado"], ["created_at", "2022-09-14 18:01:44.453088"], ["updated_at", "2022-09-14 18:01:44.453088"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hacerla corta"], ["definition", "Abreviar un trámite o resumir una historia muy larga, demorarse poco"], ["created_at", "2022-09-14 18:01:44.454639"], ["updated_at", "2022-09-14 18:01:44.454639"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Tener olor a gladiolos"], ["definition", "Estar a punto de morir"], ["created_at", "2022-09-14 18:01:44.456312"], ["updated_at", "2022-09-14 18:01:44.456312"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pellizcar la uva"], ["definition", "intención de quitarle el novio o novia a alguien"], ["created_at", "2022-09-14 18:01:44.459955"], ["updated_at", "2022-09-14 18:01:44.459955"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Mojarse el potito"], ["definition", "Atreverse, decir algo osado"], ["created_at", "2022-09-14 18:01:44.462918"], ["updated_at", "2022-09-14 18:01:44.462918"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Andar con el Kino acumulado"], ["definition", "No tener relaciones sexuales en un tiempo considerable"], ["created_at", "2022-09-14 18:01:44.465989"], ["updated_at", "2022-09-14 18:01:44.465989"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Para chuparse los bigotes"], ["definition", "La comida estaba muy rica"], ["created_at", "2022-09-14 18:01:44.469353"], ["updated_at", "2022-09-14 18:01:44.469353"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.1ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pisar el palito"], ["definition", "Casarse"], ["created_at", "2022-09-14 18:01:44.472788"], ["updated_at", "2022-09-14 18:01:44.472788"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "La mano que aprieta"], ["definition", "La pareja controladora"], ["created_at", "2022-09-14 18:01:44.475893"], ["updated_at", "2022-09-14 18:01:44.475893"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar en cana o Canadá"], ["definition", "Estar preso en la cárcel"], ["created_at", "2022-09-14 18:01:44.478821"], ["updated_at", "2022-09-14 18:01:44.478821"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Aserruchar el piso"], ["definition", "Quitarle el trabajo a alguien"], ["created_at", "2022-09-14 18:01:44.482024"], ["updated_at", "2022-09-14 18:01:44.482024"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Subir al columpio"], ["definition", "Burlarse de alguien"], ["created_at", "2022-09-14 18:01:44.485200"], ["updated_at", "2022-09-14 18:01:44.485200"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Está peluo"], ["definition", "Es o está difícil"], ["created_at", "2022-09-14 18:01:44.488198"], ["updated_at", "2022-09-14 18:01:44.488198"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Dar lata / paja"], ["definition", "Algo que da flojera, desgano o pereza"], ["created_at", "2022-09-14 18:01:44.490279"], ["updated_at", "2022-09-14 18:01:44.490279"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar achacado"], ["definition", "Estar angustiados o tristes"], ["created_at", "2022-09-14 18:01:44.492220"], ["updated_at", "2022-09-14 18:01:44.492220"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ir a carretear"], ["definition", "Ir de fiesta"], ["created_at", "2022-09-14 18:01:44.495311"], ["updated_at", "2022-09-14 18:01:44.495311"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.7ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser apretado"], ["definition", "Ser poco desprendido o que no le gusta compartir sus cosas"], ["created_at", "2022-09-14 18:01:44.498200"], ["updated_at", "2022-09-14 18:01:44.498200"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Sacar pica"], ["definition", "Provocar celos o envidia"], ["created_at", "2022-09-14 18:01:44.504363"], ["updated_at", "2022-09-14 18:01:44.504363"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "No estar ni ahí"], ["definition", "No le interesa o no le importa"], ["created_at", "2022-09-14 18:01:44.505837"], ["updated_at", "2022-09-14 18:01:44.505837"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Correr mano"], ["definition", "Manosear a alguien"], ["created_at", "2022-09-14 18:01:44.507334"], ["updated_at", "2022-09-14 18:01:44.507334"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Quedar la crema / Dejar la cagada / Dejar la escoba"], ["definition", "Armar un escándalo, un desastre o un mal entendido"], ["created_at", "2022-09-14 18:01:44.508686"], ["updated_at", "2022-09-14 18:01:44.508686"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Creerse la muerte"], ["definition", "Ser egocéntrico, vanagloriarse o sentirse orgulloso de algo"], ["created_at", "2022-09-14 18:01:44.510104"], ["updated_at", "2022-09-14 18:01:44.510104"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Dar la hora"], ["definition", "Estar en un lugar perdiendo el tiempo"], ["created_at", "2022-09-14 18:01:44.511496"], ["updated_at", "2022-09-14 18:01:44.511496"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Darse vuelta la chaqueta"], ["definition", "Cambiar de opinión según convenga"], ["created_at", "2022-09-14 18:01:44.512813"], ["updated_at", "2022-09-14 18:01:44.512813"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Dar jugo"], ["definition", "Decir o hacer cosas sin sentido"], ["created_at", "2022-09-14 18:01:44.514119"], ["updated_at", "2022-09-14 18:01:44.514119"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Salió con un domingo siete"], ["definition", "Quedó embarazada inesperadamente"], ["created_at", "2022-09-14 18:01:44.515428"], ["updated_at", "2022-09-14 18:01:44.515428"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Todas las micros le sirven"], ["definition", "No es muy riguroso o rigurosa para elegir parejas"], ["created_at", "2022-09-14 18:01:44.516738"], ["updated_at", "2022-09-14 18:01:44.516738"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Más prendido que tele de conserje"], ["definition", "Tiene una energía infinita"], ["created_at", "2022-09-14 18:01:44.518036"], ["updated_at", "2022-09-14 18:01:44.518036"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Rallar la papa o peinar la muñeca"], ["definition", "Estar haciendo o diciendo una locura o algo sin sentido"], ["created_at", "2022-09-14 18:01:44.519326"], ["updated_at", "2022-09-14 18:01:44.519326"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ojo al charqui"], ["definition", "Poner atención a alguna situación"], ["created_at", "2022-09-14 18:01:44.520659"], ["updated_at", "2022-09-14 18:01:44.520659"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Mano de guagua"], ["definition", "Persona que no quiere gastar dinero"], ["created_at", "2022-09-14 18:01:44.521963"], ["updated_at", "2022-09-14 18:01:44.521963"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Saltó lejos el maní"], ["definition", "Cuando alguien se mete en una conversación en la que no estaba incluido"], ["created_at", "2022-09-14 18:01:44.523309"], ["updated_at", "2022-09-14 18:01:44.523309"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Al que le quede el poncho que se lo ponga"], ["definition", "Cuando una persona se siente identificada por una indirecta"], ["created_at", "2022-09-14 18:01:44.524662"], ["updated_at", "2022-09-14 18:01:44.524662"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pasarlo filete"], ["definition", "Pasarlo muy bien"], ["created_at", "2022-09-14 18:01:44.526022"], ["updated_at", "2022-09-14 18:01:44.526022"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Borrar el casete"], ["definition", "Se te borra la memoria cuando bebes"], ["created_at", "2022-09-14 18:01:44.527523"], ["updated_at", "2022-09-14 18:01:44.527523"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Apagar la tele"], ["definition", "Quedar inconsciente de tanto beber"], ["created_at", "2022-09-14 18:01:44.528869"], ["updated_at", "2022-09-14 18:01:44.528869"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Importar una raja"], ["definition", "No importa"], ["created_at", "2022-09-14 18:01:44.530324"], ["updated_at", "2022-09-14 18:01:44.530324"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Sacar el rollo"], ["definition", "Conocer, evaluar a alguien"], ["created_at", "2022-09-14 18:01:44.531725"], ["updated_at", "2022-09-14 18:01:44.531725"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Más cosido que un botón de oro"], ["definition", "Estar muy borracho"], ["created_at", "2022-09-14 18:01:44.533077"], ["updated_at", "2022-09-14 18:01:44.533077"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "El día del pico / corneta"], ["definition", "Jamás o en un futuro poco probable"], ["created_at", "2022-09-14 18:01:44.534433"], ["updated_at", "2022-09-14 18:01:44.534433"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Volantín de cuero"], ["definition", "Que no invita nunca"], ["created_at", "2022-09-14 18:01:44.535806"], ["updated_at", "2022-09-14 18:01:44.535806"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Sanguchito de palta"], ["definition", "Que cuenta todo, no guarda secretos"], ["created_at", "2022-09-14 18:01:44.537138"], ["updated_at", "2022-09-14 18:01:44.537138"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Chupar más que orilla de playa"], ["definition", "Beber mucho"], ["created_at", "2022-09-14 18:01:44.538378"], ["updated_at", "2022-09-14 18:01:44.538378"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.3ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Tener la media cuea / Ser rajuo"], ["definition", "Tener suerte"], ["created_at", "2022-09-14 18:01:44.539592"], ["updated_at", "2022-09-14 18:01:44.539592"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Se te cayó el carnet"], ["definition", "Desvelar tu edad con un hecho de conocimiento público que pasó hace tiempo"], ["created_at", "2022-09-14 18:01:44.540960"], ["updated_at", "2022-09-14 18:01:44.540960"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Tirarse los pedos más arriba del culo"], ["definition", "Ser muy sobrado o creído"], ["created_at", "2022-09-14 18:01:44.542277"], ["updated_at", "2022-09-14 18:01:44.542277"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "La última chupa del mate"], ["definition", "Lo mejor, o que se cree lo mejor"], ["created_at", "2022-09-14 18:01:44.543577"], ["updated_at", "2022-09-14 18:01:44.543577"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Después de la pega"], ["definition", "Después del trabajo"], ["created_at", "2022-09-14 18:01:44.544865"], ["updated_at", "2022-09-14 18:01:44.544865"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hacer el cuento corto"], ["definition", "Resumir, apurarse"], ["created_at", "2022-09-14 18:01:44.546152"], ["updated_at", "2022-09-14 18:01:44.546152"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Cara de raja"], ["definition", "Cara dura, sin vergüenza"], ["created_at", "2022-09-14 18:01:44.547449"], ["updated_at", "2022-09-14 18:01:44.547449"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "No nos topamos"], ["definition", "No coincidimos, no nos encontramos"], ["created_at", "2022-09-14 18:01:44.548735"], ["updated_at", "2022-09-14 18:01:44.548735"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estirar el chicle"], ["definition", "Alargar una situación"], ["created_at", "2022-09-14 18:01:44.550043"], ["updated_at", "2022-09-14 18:01:44.550043"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Livianito de sangre"], ["definition", "Simpático, agradable, que cae bien rápido"], ["created_at", "2022-09-14 18:01:44.551314"], ["updated_at", "2022-09-14 18:01:44.551314"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Tirarle los churrines / calzones"], ["definition", "Coquetearle"], ["created_at", "2022-09-14 18:01:44.552607"], ["updated_at", "2022-09-14 18:01:44.552607"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "El/la patas negras"], ["definition", "El/la amante"], ["created_at", "2022-09-14 18:01:44.553856"], ["updated_at", "2022-09-14 18:01:44.553856"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Asado de vidrio"], ["definition", "Junta para beber y comer carne barata"], ["created_at", "2022-09-14 18:01:44.555104"], ["updated_at", "2022-09-14 18:01:44.555104"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser chupa medias"], ["definition", "Ser alguien que halaga mucho a otras personas para conseguir algo a cambio"], ["created_at", "2022-09-14 18:01:44.556384"], ["updated_at", "2022-09-14 18:01:44.556384"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Maestro chasquilla"], ["definition", "Maestros que hacen de todo, pero sin expertiz o estudios en el área"], ["created_at", "2022-09-14 18:01:44.557616"], ["updated_at", "2022-09-14 18:01:44.557616"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hablar calzón quitado"], ["definition", "Conversar con precisión y franqueza"], ["created_at", "2022-09-14 18:01:44.558870"], ["updated_at", "2022-09-14 18:01:44.558870"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Caído del catre"], ["definition", "Torpe"], ["created_at", "2022-09-14 18:01:44.560264"], ["updated_at", "2022-09-14 18:01:44.560264"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser seco"], ["definition", "Ser muy pro, profesional, experto"], ["created_at", "2022-09-14 18:01:44.561592"], ["updated_at", "2022-09-14 18:01:44.561592"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar que corta las huinchas"], ["definition", "Estar muy ansioso o con muchísimos deseos de hacer algo"], ["created_at", "2022-09-14 18:01:44.562860"], ["updated_at", "2022-09-14 18:01:44.562860"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Importar un pucho"], ["definition", "No importa"], ["created_at", "2022-09-14 18:01:44.564130"], ["updated_at", "2022-09-14 18:01:44.564130"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar arriba de la pelota"], ["definition", "Estar borracho o drogado, pero no al extremo de perder el sentido"], ["created_at", "2022-09-14 18:01:44.565418"], ["updated_at", "2022-09-14 18:01:44.565418"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Sacar la ñoña / la cresta:"], ["definition", "Cuando a alguien le dan una paliza o se cae de forma aparatosa"], ["created_at", "2022-09-14 18:01:44.566690"], ["updated_at", "2022-09-14 18:01:44.566690"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar cachuo"], ["definition", "Tener dudas o sospechas"], ["created_at", "2022-09-14 18:01:44.567973"], ["updated_at", "2022-09-14 18:01:44.567973"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Creerse el hoyo del queque"], ["definition", "Creerse el mejor"], ["created_at", "2022-09-14 18:01:44.569527"], ["updated_at", "2022-09-14 18:01:44.569527"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Como piojo"], ["definition", "Estar borracho"], ["created_at", "2022-09-14 18:01:44.570789"], ["updated_at", "2022-09-14 18:01:44.570789"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Echar la yegua"], ["definition", "Cansarse o que te entra un poco de sueño, sobre todo después de comer"], ["created_at", "2022-09-14 18:01:44.572076"], ["updated_at", "2022-09-14 18:01:44.572076"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.8ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Pasarlo muy bien"], ["created_at", "2022-09-14 18:01:44.573375"], ["updated_at", "2022-09-14 18:01:44.573375"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Morir pollo"], ["definition", "Callarse"], ["created_at", "2022-09-14 18:01:44.575350"], ["updated_at", "2022-09-14 18:01:44.575350"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Echarse al pollo"], ["definition", "Irse"], ["created_at", "2022-09-14 18:01:44.576704"], ["updated_at", "2022-09-14 18:01:44.576704"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hablar cabezas de pescado"], ["definition", "Hablar tonterías"], ["created_at", "2022-09-14 18:01:44.578008"], ["updated_at", "2022-09-14 18:01:44.578008"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hacer una mosca"], ["definition", "Firmar abreviadamente, hacer un garabato de firma o una rúbrica"], ["created_at", "2022-09-14 18:01:44.579300"], ["updated_at", "2022-09-14 18:01:44.579300"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pasarlo la zorra / la raja"], ["definition", "Pasarlo muy bien"], ["created_at", "2022-09-14 18:01:44.580603"], ["updated_at", "2022-09-14 18:01:44.580603"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Irse al chancho"], ["definition", "Exagerar"], ["created_at", "2022-09-14 18:01:44.581902"], ["updated_at", "2022-09-14 18:01:44.581902"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar pal gato"], ["definition", "Estar enfermo, decaído, mal"], ["created_at", "2022-09-14 18:01:44.583228"], ["updated_at", "2022-09-14 18:01:44.583228"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Bajarse del pony"], ["definition", "Dejar de creerse la gran cosa"], ["created_at", "2022-09-14 18:01:44.584527"], ["updated_at", "2022-09-14 18:01:44.584527"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Mandarse un condoro"], ["definition", "Cometer un error grave"], ["created_at", "2022-09-14 18:01:44.585793"], ["updated_at", "2022-09-14 18:01:44.585793"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Embolinar la perdiz"], ["definition", "Tratar de confundir o engañar a otra persona con muchas palabras, burocracia o alguna técnica rebuscada"], ["created_at", "2022-09-14 18:01:44.587076"], ["updated_at", "2022-09-14 18:01:44.587076"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar meado de gato"], ["definition", "Tener muy mala suerte"], ["created_at", "2022-09-14 18:01:44.588349"], ["updated_at", "2022-09-14 18:01:44.588349"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Dejar como chaleco de mono"], ["definition", "Dejar a alguien mal parado o hacer que pierda la estima de los demás"], ["created_at", "2022-09-14 18:01:44.589631"], ["updated_at", "2022-09-14 18:01:44.589631"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Por si las moscas"], ["definition", "Hacer algo para prevenir un problema"], ["created_at", "2022-09-14 18:01:44.590871"], ["updated_at", "2022-09-14 18:01:44.590871"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Marca chancho"], ["definition", "Un producto de muy mala calidad, copia o de una marca desconocida"], ["created_at", "2022-09-14 18:01:44.592149"], ["updated_at", "2022-09-14 18:01:44.592149"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Chicotear los caracoles"], ["definition", "Realizar una tarea más rápido o apurarse"], ["created_at", "2022-09-14 18:01:44.593576"], ["updated_at", "2022-09-14 18:01:44.593576"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Darse una manito de gato / de tigre"], ["definition", "Arreglarse o acicalarse"], ["created_at", "2022-09-14 18:01:44.594938"], ["updated_at", "2022-09-14 18:01:44.594938"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Estar pato"], ["definition", "No tener dinero"], ["created_at", "2022-09-14 18:01:44.596371"], ["updated_at", "2022-09-14 18:01:44.596371"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser sapo"], ["definition", "Ser un entrometido que le gusta hablar de los demás, contando sus cosas privadas"], ["created_at", "2022-09-14 18:01:44.597703"], ["updated_at", "2022-09-14 18:01:44.597703"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Pasarlo chancho"], ["definition", "Divertirse"], ["created_at", "2022-09-14 18:01:44.599080"], ["updated_at", "2022-09-14 18:01:44.599080"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hacer perro muerto"], ["definition", "Irse de un restaurante/bar/café sin pagar"], ["created_at", "2022-09-14 18:01:44.600443"], ["updated_at", "2022-09-14 18:01:44.600443"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Hacer la vaca"], ["definition", "Hacer una colecta o juntar dinero"], ["created_at", "2022-09-14 18:01:44.601810"], ["updated_at", "2022-09-14 18:01:44.601810"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser avispado"], ["definition", "Ser ingenioso, ocurrente o de reacción rápida"], ["created_at", "2022-09-14 18:01:44.603206"], ["updated_at", "2022-09-14 18:01:44.603206"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Echar la foca"], ["definition", "Confrontar o reprender a alguien por una acción o actitud equivocada"], ["created_at", "2022-09-14 18:01:44.604629"], ["updated_at", "2022-09-14 18:01:44.604629"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mExpression Create (0.2ms)[0m  [1m[32mINSERT INTO "expressions" ("sentence", "definition", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["sentence", "Ser aperrado"], ["definition", "Ser valiente, osado o atrevido"], ["created_at", "2022-09-14 18:01:44.607379"], ["updated_at", "2022-09-14 18:01:44.607379"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2022-09-14 15:02:01 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.4ms | Allocations: 123)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 609)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 47357)
+Completed 200 OK in 58ms (Views: 54.6ms | ActiveRecord: 0.0ms | Allocations: 49957)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-09-14 15:02:03 -0300
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.7ms | Allocations: 204)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 690)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 6.5ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 11092)
+Completed 200 OK in 58ms (Views: 27.3ms | ActiveRecord: 10.2ms | Allocations: 19006)
+
+
+Started GET "/expressions.9" for 127.0.0.1 at 2022-09-14 15:02:04 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 11276)
+Completed 200 OK in 32ms (Views: 22.9ms | ActiveRecord: 2.2ms | Allocations: 13869)
+
+
+Started GET "/expressions.41" for 127.0.0.1 at 2022-09-14 15:02:05 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 10688)
+Completed 200 OK in 29ms (Views: 21.4ms | ActiveRecord: 2.5ms | Allocations: 13158)
+
+
+Started GET "/expressions.4" for 127.0.0.1 at 2022-09-14 15:02:06 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 65], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 10688)
+Completed 200 OK in 30ms (Views: 21.7ms | ActiveRecord: 2.8ms | Allocations: 13157)
+
+
+Started GET "/expressions.65" for 127.0.0.1 at 2022-09-14 15:02:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 11048)
+Completed 200 OK in 38ms (Views: 20.0ms | ActiveRecord: 3.7ms | Allocations: 13499)
+
+
+Started GET "/expressions.2" for 127.0.0.1 at 2022-09-14 15:02:07 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 10867)
+Completed 200 OK in 31ms (Views: 22.2ms | ActiveRecord: 2.9ms | Allocations: 13315)
+
+
+Started GET "/expressions.47" for 127.0.0.1 at 2022-09-14 15:02:08 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 66], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10689)
+Completed 200 OK in 32ms (Views: 23.2ms | ActiveRecord: 2.9ms | Allocations: 13159)
+
+
+Started GET "/expressions.66" for 127.0.0.1 at 2022-09-14 15:02:09 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 70], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 10871)
+Completed 200 OK in 33ms (Views: 25.3ms | ActiveRecord: 2.7ms | Allocations: 13322)
+
+
+Started GET "/expressions.70" for 127.0.0.1 at 2022-09-14 15:02:10 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 57], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 11048)
+Completed 200 OK in 29ms (Views: 20.6ms | ActiveRecord: 2.9ms | Allocations: 13500)
+
+
+Started GET "/expressions.57" for 127.0.0.1 at 2022-09-14 15:02:10 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 95], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 10688)
+Completed 200 OK in 28ms (Views: 21.3ms | ActiveRecord: 2.1ms | Allocations: 13136)
+
+
+Started GET "/expressions.95" for 127.0.0.1 at 2022-09-14 15:02:10 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.4ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 10693)
+Completed 200 OK in 35ms (Views: 27.8ms | ActiveRecord: 2.3ms | Allocations: 13142)
+
+
+Started GET "/expressions.45" for 127.0.0.1 at 2022-09-14 15:02:11 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.3ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 10981)
+Completed 200 OK in 30ms (Views: 20.8ms | ActiveRecord: 3.1ms | Allocations: 13431)
+
+
+Started GET "/expressions.11" for 127.0.0.1 at 2022-09-14 15:02:12 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 10869)
+Completed 200 OK in 32ms (Views: 22.5ms | ActiveRecord: 3.0ms | Allocations: 13318)
+
+
+Started GET "/expressions.40" for 127.0.0.1 at 2022-09-14 15:02:12 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 10688)
+Completed 200 OK in 32ms (Views: 23.7ms | ActiveRecord: 2.4ms | Allocations: 13136)
+
+
+Started GET "/expressions.79" for 127.0.0.1 at 2022-09-14 15:02:13 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 11052)
+Completed 200 OK in 34ms (Views: 23.3ms | ActiveRecord: 4.1ms | Allocations: 13503)
+
+
+Started GET "/expressions.79" for 127.0.0.1 at 2022-09-14 15:02:13 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 52], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 11050)
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 2.2ms | Allocations: 13504)
+
+
+Started GET "/expressions.52" for 127.0.0.1 at 2022-09-14 15:02:14 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 10869)
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 2.7ms | Allocations: 13318)
+
+
+Started GET "/expressions.36" for 127.0.0.1 at 2022-09-14 15:02:14 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 56], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 11047)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 2.2ms | Allocations: 13496)
+
+
+Started GET "/expressions.56" for 127.0.0.1 at 2022-09-14 15:02:15 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 62], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 11048)
+Completed 200 OK in 30ms (Views: 23.9ms | ActiveRecord: 2.1ms | Allocations: 13500)
+
+
+Started GET "/expressions.62" for 127.0.0.1 at 2022-09-14 15:02:15 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 96], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 11047)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 2.4ms | Allocations: 13496)
+
+
+Started GET "/expressions.96" for 127.0.0.1 at 2022-09-14 15:02:15 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.2ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 10970)
+Completed 200 OK in 38ms (Views: 26.8ms | ActiveRecord: 4.4ms | Allocations: 13419)
+
+
+Started GET "/expressions.17" for 127.0.0.1 at 2022-09-14 15:02:16 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.1ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 11047)
+Completed 200 OK in 29ms (Views: 20.4ms | ActiveRecord: 2.9ms | Allocations: 13690)
+
+
+Started GET "/expressions.2" for 127.0.0.1 at 2022-09-14 15:02:16 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 1.3ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 10984)
+Completed 200 OK in 40ms (Views: 28.0ms | ActiveRecord: 3.0ms | Allocations: 13432)
+
+
+Started GET "/expressions.31" for 127.0.0.1 at 2022-09-14 15:02:17 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (2.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 60], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.5ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 10689)
+Completed 200 OK in 51ms (Views: 37.0ms | ActiveRecord: 4.8ms | Allocations: 13138)
+
+
+Started GET "/expressions.60" for 127.0.0.1 at 2022-09-14 15:02:18 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 10974)
+Completed 200 OK in 29ms (Views: 21.3ms | ActiveRecord: 2.6ms | Allocations: 13423)
+
+
+Started GET "/expressions.10" for 127.0.0.1 at 2022-09-14 15:02:18 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 49], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.4ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 10868)
+Completed 200 OK in 28ms (Views: 20.8ms | ActiveRecord: 2.5ms | Allocations: 13318)
+
+

@@ -1,4 +1,5 @@
 class Quiz < ApplicationRecord
-  belongs_to :expression
-  belongs_to :option
+  has_many :expressions
+  has_many :options
+  has_many :scores
 end
