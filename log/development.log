@@ -50116,3 +50116,1735 @@ Processing by QuizzesController#show as HTML
 Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 11018)
 
 
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 15:20:58 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/show.html.erb within layouts/application
+  Rendered quizzes/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.5ms | Allocations: 118)
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 580)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 11163)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 12169)
+
+
+Started GET "/quizzes/" for 127.0.0.1 at 2022-09-14 15:21:22 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10534)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 11014)
+
+
+Started GET "/quizzes/" for 127.0.0.1 at 2022-09-14 15:24:19 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 599)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.3ms | Allocations: 117)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 580)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 11618)
+Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 12630)
+
+
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:24:20 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 11227)
+Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 11612)
+
+
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:24:21 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 10694)
+Completed 200 OK in 31ms (Views: 30.8ms | Allocations: 11077)
+
+
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:24:21 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10545)
+Completed 200 OK in 25ms (Views: 24.9ms | Allocations: 10927)
+
+
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:27:26 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1892)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1956)
+Completed 500 Internal Server Error in 12ms (Allocations: 2940)
+
+
+  
+ActionView::Template::Error (Missing partial quizzes/_expression, application/_expression with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/mo/Code/novapixels/chileanist/app/views"
+  * "/Users/mo/.rvm/gems/ruby-2.7.4/gems/actiontext-6.1.4.1/app/views"
+  * "/Users/mo/.rvm/gems/ruby-2.7.4/gems/actionmailbox-6.1.4.1/app/views"
+):
+     7:   <div class="px-3 main-content-center">
+     8: 
+     9:     <%= turbo_frame_tag "expression_turbo_frame" do %>
+    10:       <%= render "expression" %>
+    11:     <% end %>
+    12:     <p class="lead">
+    13:       <%= link_to "Empezar", quizzes_path(new_quizz),  class: "btn btn-lg btn-custom fw-bold"%>
+  
+app/views/quizzes/index.html.erb:10
+app/views/quizzes/index.html.erb:9
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:27:58 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1542)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1606)
+Completed 500 Internal Server Error in 2ms (Allocations: 2081)
+
+
+  
+ActionView::Template::Error (Missing partial quizzes/_expression, application/_expression with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/Users/mo/Code/novapixels/chileanist/app/views"
+  * "/Users/mo/.rvm/gems/ruby-2.7.4/gems/actiontext-6.1.4.1/app/views"
+  * "/Users/mo/.rvm/gems/ruby-2.7.4/gems/actionmailbox-6.1.4.1/app/views"
+):
+     7:   <div class="px-3 main-content-center">
+     8: 
+     9:     <%= turbo_frame_tag "expression_turbo_frame" do %>
+    10:       <%= render "expression" %>
+    11:     <% end %>
+    12:     <p class="lead">
+    13:       <%= link_to "Empezar", quizzes_path(new_quizz),  class: "btn btn-lg btn-custom fw-bold"%>
+  
+app/views/quizzes/index.html.erb:10
+app/views/quizzes/index.html.erb:9
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:29:42 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4136)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4200)
+Completed 500 Internal Server Error in 11ms (Allocations: 5189)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizz' for #<ActionView::Base:0x000000000106a8>):
+     7: 
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", quizzes_path(new_quizz),  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:29:53 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2471)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:36 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 9ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:37 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:45 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:46 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:47 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:56 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2491)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizzes):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:30:57 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2523)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizzes):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:31:57 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:31:58 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:32:05 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 15:32:06 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started PUT "/__web_console/repl_sessions/4709f4e46fcc1ef76a5c1508ef4638e0" for 127.0.0.1 at 2022-09-14 15:33:16 -0300
+Started PUT "/__web_console/repl_sessions/4709f4e46fcc1ef76a5c1508ef4638e0" for 127.0.0.1 at 2022-09-14 15:33:17 -0300
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:54:23 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:5:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:56:59 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:57:00 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:57:10 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:57:10 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:57:29 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:58:42 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:5: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(id)
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:5: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:5: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:5: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:58:57 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 4149)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4213)
+Completed 500 Internal Server Error in 14ms (Allocations: 5286)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizz' for #<ActionView::Base:0x0000000001ede8>):
+     7:       Comprueba tus habilidades en español chileno, y súmate al ranking!
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", quizzes_id_path(new_quizz),  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:59:28 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 4181)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 4245)
+Completed 500 Internal Server Error in 33ms (Allocations: 5313)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizz' for #<ActionView::Base:0x0000000001f130>):
+     7:       Comprueba tus habilidades en español chileno, y súmate al ranking!
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", quizzes_path(new_quizz),  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes?class=btn+btn-lg+btn-custom+fw-bold" for 127.0.0.1 at 2022-09-14 19:59:44 -0300
+Processing by QuizzesController#index as HTML
+  Parameters: {"class"=>"btn btn-lg btn-custom fw-bold"}
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.5ms | Allocations: 120)
+  Rendered partials/_footer.html.erb (Duration: 1.5ms | Allocations: 584)
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 11640)
+Completed 200 OK in 42ms (Views: 40.9ms | Allocations: 12737)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:47 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 11203)
+Completed 200 OK in 22ms (Views: 21.2ms | Allocations: 11585)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:47 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.2ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:48 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.5ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:49 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 10530)
+Completed 200 OK in 20ms (Views: 19.3ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:50 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 10530)
+Completed 200 OK in 21ms (Views: 19.9ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:50 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 10530)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 19:59:51 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 10530)
+Completed 200 OK in 21ms (Views: 19.8ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:00:52 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(params[:id])
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+...zz_id = @new_quizz(params[:id])
+...                              ^
+):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+Started GET "/" for 127.0.0.1 at 2022-09-14 20:11:56 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 10942)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 11827)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-14 20:11:56 -0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 70)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 10511)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 10891)
+
+
+Started GET "/expressions" for 127.0.0.1 at 2022-09-14 20:11:57 -0300
+Processing by ExpressionsController#index as HTML
+  [1m[36mExpression Load (1.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.0ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 98], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 1.3ms | Allocations: 204)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 684)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 11445)
+Completed 200 OK in 141ms (Views: 22.2ms | ActiveRecord: 60.7ms | Allocations: 22563)
+
+
+Started GET "/expressions.98" for 127.0.0.1 at 2022-09-14 20:11:59 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 89], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.4ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 11093)
+Completed 200 OK in 34ms (Views: 24.7ms | ActiveRecord: 2.5ms | Allocations: 13698)
+
+
+Started GET "/expressions.89" for 127.0.0.1 at 2022-09-14 20:12:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10685)
+Completed 200 OK in 30ms (Views: 21.9ms | ActiveRecord: 2.3ms | Allocations: 13133)
+
+
+Started GET "/expressions.40" for 127.0.0.1 at 2022-09-14 20:12:00 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.9ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 89], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10688)
+Completed 200 OK in 26ms (Views: 19.6ms | ActiveRecord: 2.3ms | Allocations: 13136)
+
+
+Started GET "/expressions.89" for 127.0.0.1 at 2022-09-14 20:12:01 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 53], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 253)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 10686)
+Completed 200 OK in 27ms (Views: 20.2ms | ActiveRecord: 2.1ms | Allocations: 13135)
+
+
+Started GET "/expressions.53" for 127.0.0.1 at 2022-09-14 20:12:01 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (1.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 84], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 11047)
+Completed 200 OK in 35ms (Views: 25.0ms | ActiveRecord: 3.6ms | Allocations: 13509)
+
+
+Started GET "/expressions.84" for 127.0.0.1 at 2022-09-14 20:12:01 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 60], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 10689)
+Completed 200 OK in 33ms (Views: 26.0ms | ActiveRecord: 2.1ms | Allocations: 13138)
+
+
+Started GET "/expressions.60" for 127.0.0.1 at 2022-09-14 20:12:02 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 66], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 71)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 252)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.5ms | Allocations: 492)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 10868)
+Completed 200 OK in 24ms (Views: 17.3ms | ActiveRecord: 2.1ms | Allocations: 13331)
+
+
+Started GET "/expressions.66" for 127.0.0.1 at 2022-09-14 20:12:02 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 52], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 73)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 11049)
+Completed 200 OK in 28ms (Views: 21.2ms | ActiveRecord: 2.1ms | Allocations: 13498)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:12:07 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(params[:id])
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+...zz_id = @new_quizz(params[:id])
+...                              ^
+):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+Started GET "/expressions.66" for 127.0.0.1 at 2022-09-14 20:12:35 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.4ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.5ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.1ms | Allocations: 75)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 264)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 11025)
+Completed 200 OK in 25ms (Views: 12.0ms | ActiveRecord: 6.2ms | Allocations: 16551)
+
+
+Started GET "/expressions.60" for 127.0.0.1 at 2022-09-14 20:12:36 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.8ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.6ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.3ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10687)
+Completed 200 OK in 30ms (Views: 23.4ms | ActiveRecord: 2.2ms | Allocations: 13135)
+
+
+Started GET "/expressions.66" for 127.0.0.1 at 2022-09-14 20:12:37 -0300
+Processing by ExpressionsController#index as */*
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:5:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" ORDER BY "expressions"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:6:in `index'
+  [1m[36mExpression Load (0.7ms)[0m  [1m[34mSELECT "expressions".* FROM "expressions" WHERE "expressions"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/expressions_controller.rb:9:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering expressions/index.html.erb within layouts/application
+  Rendered expressions/_expression.html.erb (Duration: 0.2ms | Allocations: 72)
+  Rendered expressions/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10687)
+Completed 200 OK in 29ms (Views: 21.9ms | ActiveRecord: 2.1ms | Allocations: 13135)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:12:42 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(params[:id])
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+...zz_id = @new_quizz(params[:id])
+...                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:12:43 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(params[:id])
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+...zz_id = @new_quizz(params[:id])
+...                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:12:54 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(quizz_params)
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started PUT "/__web_console/repl_sessions/413c93aa9f84f5103bb760de3ae6a731" for 127.0.0.1 at 2022-09-14 20:13:00 -0300
+Started PUT "/__web_console/repl_sessions/413c93aa9f84f5103bb760de3ae6a731" for 127.0.0.1 at 2022-09-14 20:13:01 -0300
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:08 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(quizz_params)
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:09 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(quizz_params)
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:24 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+    @new_quizz_id = @new_quizz(quizz_params[:id])
+                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+...= @new_quizz(quizz_params[:id])
+...                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected ')', expecting `end'
+app/controllers/quizzes_controller.rb:20: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:50 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10865)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 11368)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:52 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10530)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:53 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 10530)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:53 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 10530)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:14:54 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:15:47 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 10502)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 11005)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:15:48 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 10894)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 11276)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:15:49 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10530)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:16:02 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 10501)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 11003)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:16:03 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.3ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10530)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 10909)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:16:04 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:16:05 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.2ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10531)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 20:16:05 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 10894)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 11276)
+
+
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:16:16 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:8:in `show'
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:24 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:26 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:42 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:44 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:47 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:54 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:16:55 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:17:06 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:17:12 -0300
+Started PUT "/__web_console/repl_sessions/62db1684076f66ca4b90b3cbc88de3f3" for 127.0.0.1 at 2022-09-14 20:17:12 -0300
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:41:26 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:8:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:41:29 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:8:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:41:49 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:8:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:46:37 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 30.7ms | Allocations: 9229)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:46:56 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 5.5ms | Allocations: 4936)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizze):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:48:53 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 5.8ms | Allocations: 4948)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:49:17 -0300
+  
+SyntaxError (/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting ')'
+...zz.new(:score_id => @new_score(id))
+...                              ^
+/Users/mo/Code/novapixels/chileanist/app/controllers/quizzes_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting ')'
+app/controllers/quizzes_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting ')'
+app/controllers/quizzes_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/quizzes_controller.rb:9: syntax error, unexpected '(', expecting ')'
+app/controllers/quizzes_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:01 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 5.6ms | Allocations: 4943)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:02 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:08 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 5.9ms | Allocations: 4940)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:09 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:34 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 4.6ms | Allocations: 4940)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:35 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:35 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:50:35 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:59:04 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 10.6ms | Allocations: 8458)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes/show" for 127.0.0.1 at 2022-09-14 20:59:06 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"show"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/score" for 127.0.0.1 at 2022-09-14 20:59:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/score"):
+  
+Started GET "/scores" for 127.0.0.1 at 2022-09-14 20:59:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/scores"):
+  
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 21:00:32 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.0ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 10864)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 11367)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 21:00:35 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10530)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 10912)
+
+
+Started GET "/quizzes/1" for 127.0.0.1 at 2022-09-14 21:02:14 -0300
+Processing by QuizzesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 10.2ms | Allocations: 6986)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `show'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-14 21:02:18 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 24.2ms | Allocations: 4209)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 4273)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms | Allocations: 5340)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizzes_path' for #<ActionView::Base:0x00000000039760>):
+     7:       Comprueba tus habilidades en español chileno, y súmate al ranking!
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", new_quizzes_path,  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:06 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 195)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.4ms | Allocations: 117)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 11632)
+Completed 200 OK in 59ms (Views: 46.4ms | Allocations: 12728)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:08 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 10537)
+Completed 200 OK in 28ms (Views: 26.8ms | Allocations: 10919)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:09 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 10711)
+Completed 200 OK in 33ms (Views: 32.8ms | Allocations: 11093)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:09 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 10530)
+Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:10 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.7ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:10 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.4ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 10530)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:10 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.6ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 10530)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:10 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 10711)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 11092)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:10 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10530)
+Completed 200 OK in 23ms (Views: 22.1ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:11 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 494)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 10597)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 10979)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:12 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 10711)
+Completed 200 OK in 23ms (Views: 22.4ms | Allocations: 11093)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:34:12 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 10530)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:35:36 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10530)
+Completed 200 OK in 25ms (Views: 24.8ms | Allocations: 10911)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:35:44 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 490)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 10530)
+Completed 200 OK in 22ms (Views: 21.5ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:35:45 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.2ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10531)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 10912)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:35:48 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 1.1ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 10596)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 10977)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 09:36:00 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.7ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 10535)
+Completed 200 OK in 25ms (Views: 24.6ms | Allocations: 10917)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:34:28 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.1ms | Allocations: 39)
+  Rendered partials/_footer.html.erb (Duration: 0.8ms | Allocations: 493)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 10778)
+Completed 200 OK in 50ms (Views: 45.2ms | Allocations: 11160)
+
+
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:36:19 -0300
+Processing by QuizzesController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:36:43 -0300
+Processing by QuizzesController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 2501)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:47:24 -0300
+Processing by QuizzesController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 2469)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:4:in `index'
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:47:34 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 4239)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4303)
+Completed 500 Internal Server Error in 18ms (Allocations: 5376)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizz_path' for #<ActionView::Base:0x0000000003dd60>
+Did you mean?  new_quiz_path):
+     7:       Comprueba tus habilidades en español chileno, y súmate al ranking!
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", new_quizz_path,  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:47:35 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 22.6ms | Allocations: 4172)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 4236)
+Completed 500 Internal Server Error in 24ms (Allocations: 4587)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_quizz_path' for #<ActionView::Base:0x0000000003e030>
+Did you mean?  new_quiz_path):
+     7:       Comprueba tus habilidades en español chileno, y súmate al ranking!
+     8:     </p>
+     9:     <p class="lead">
+    10:       <%= link_to "Empezar", new_quizz_path,  class: "btn btn-lg btn-custom fw-bold"%>
+    11:     </p>
+    12: 
+    13:   </div>
+  
+app/views/quizzes/index.html.erb:10
+Started GET "/quizzes" for 127.0.0.1 at 2022-09-15 16:48:07 -0300
+Processing by QuizzesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering quizzes/index.html.erb within layouts/application
+  Rendered quizzes/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered partials/_nav.html.erb (Duration: 0.6ms | Allocations: 117)
+  Rendered partials/_footer.html.erb (Duration: 1.6ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 11615)
+Completed 200 OK in 41ms (Views: 40.3ms | Allocations: 12711)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2022-09-15 16:48:08 -0300
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for QuizzesController
+Did you mean?  show
+               index):
+  
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/quizzes/new" for 127.0.0.1 at 2022-09-15 16:48:23 -0300
+Processing by QuizzesController#new as HTML
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 23.8ms | Allocations: 8412)
+
+
+  
+NameError (uninitialized constant QuizzesController::Quizz):
+  
+app/controllers/quizzes_controller.rb:9:in `new'
+Started GET "/quizzes/new" for 127.0.0.1 at 2022-09-15 16:48:41 -0300
+Processing by QuizzesController#new as HTML
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 1814)
+
+
+  
+ActionController::MissingExactTemplate (QuizzesController#new is missing a template for request formats: text/html):
+  
+actionpack (6.1.4.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.4.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.4.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.4.1) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.4.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.4.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.4.1) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.4.1) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.4.1) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.4.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.4.1) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.4.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.4.1) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.4.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.4.1) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.4.1) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.4.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.4.1) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.4.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.4.1) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.3) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.3) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.4.1) lib/rails/engine.rb:539:in `call'
+puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
