@@ -9,7 +9,7 @@ require 'csv'
 
 puts 'Cleaning database'
 Expression.destroy_all
-Option.destroy_all
+#Option.destroy_all
 Score.destroy_all
 Quiz.destroy_all
 
@@ -26,13 +26,13 @@ csv.each do |row|
 end
 puts 'All expressions created'
 
-puts 'Looping through the parsed data to create options'
-csv.each do |row|
-  Option.create!(
-    option: "#{row['Definition']}"
-  )
-end
-puts 'All options created'
+# puts 'Looping through the parsed data to create options'
+# csv.each do |row|
+#   Option.create!(
+#     option: "#{row['Definition']}"
+#   )
+# end
+# puts 'All options created'
 
-Score.create!(points: 0)
-puts 'One score created'
+# Score.create!(points: 0)
+# puts 'One score created'
