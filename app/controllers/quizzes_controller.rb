@@ -1,22 +1,27 @@
 class QuizzesController < ApplicationController
 
   def index
-    # @new_quizz = Quizz.new
+    @quizzes = Quiz.all
   end
 
   def new
-    # @new_score = Score.new(:points => 0)
-    # @new_quizz = Quizz.new
+    @quiz = Quiz.new
+  end
 
-    # @new_quizz_id = @new_quizz.id
+  def create
+    @quiz = Quiz.new(params[:quiz])
+    @quiz.save
+    @quiz.score = Score.new(:points => 0)
+    @quiz.score.save
+    redirect_to @quiz
   end
 
   private
 
-  def quizz_params
-    params.require(:quizzes).permit(
-      :expression_id,
-      :score_id
-    )
-  end
+  # def quizz_params
+  #   params.require(:quizzes).permit(
+  #     :expression_id,
+  #     :score_id
+  #   )
+  # end
 end

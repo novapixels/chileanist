@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'quiz', to: 'pages#quiz'
 
   resources :expressions, only: [:index, :show]
-  resources :quizzes, only: [:index, :new, :show] do
+  resources :quizzes, only: [:index, :new, :create, :show] do
     resources :score, only: [:index, :new, :show]
   end
 end
