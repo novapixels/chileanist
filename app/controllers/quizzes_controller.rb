@@ -16,6 +16,13 @@ class QuizzesController < ApplicationController
     redirect_to @quiz
   end
 
+  def show
+    @quiz = Quiz.find(params[:id])
+    @score = @quiz.score
+    @expressions = Expression.all
+
+  end
+
   private
 
   # def quizz_params
