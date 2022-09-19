@@ -1,4 +1,16 @@
-<%= simple_form_for @quiz do |f| %>
-  <h2><%= f.label "Chilean expression" %></h2>
-  <%= f.submit "Siguiente" %>
-<% end %>
+<h1><%= @expressionsample %></h1>
+  <p class="lead">
+    <%= form_with do |form| %>
+      <% for option in @shuffled_options do %>
+          <h5> <%= form.check_box @shuffled_options %> </h5>
+          <h5> <%= form.label "#{option}" %> </h5>
+        <% end %>
+      <% end %>
+  </p>
+
+
+<p class="lead">
+    <%= form_with do |form| %>
+      <%= form.select @shuffled_options %>
+      <% end %>
+  </p>

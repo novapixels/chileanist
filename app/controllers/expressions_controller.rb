@@ -8,11 +8,11 @@ class ExpressionsController < ApplicationController
     # stores a random expretion into a variable
     @expressionsample = Expression.find_by_id(generated_expression_id)
 
-    button_click = params[generated_expression_id]
+    # button_click = params[generated_expression_id]
 
-    if button_click.present?
-      "#{@expressionsample[:sentence]} #{@expressionsample[:definition]} "
-    end
+    # if button_click.present?
+    #   "#{@expressionsample[:sentence]} #{@expressionsample[:definition]} "
+    # end
 
   end
 
