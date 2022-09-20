@@ -1,16 +1,8 @@
-<h1><%= @expressionsample %></h1>
+<h1><%= @random_sentence %></h1>
   <p class="lead">
     <%= form_with do |form| %>
       <% for option in @shuffled_options do %>
-          <h5> <%= form.check_box @shuffled_options %> </h5>
-          <h5> <%= form.label "#{option}" %> </h5>
+          <h5> <%= link_to form.label "#{option}", controller: "quizzes", action: "new", method: :post, class: "btn btn-primary", remote: true %></h5>
         <% end %>
-      <% end %>
-  </p>
-
-
-<p class="lead">
-    <%= form_with do |form| %>
-      <%= form.select @shuffled_options %>
       <% end %>
   </p>
