@@ -6,27 +6,30 @@ class QuizzesController < ApplicationController
 
   def new
     @quiz = Quiz.new
-
     # generate a number betweem first and last expresion id
     init_num = Expression.first.id
     last_num = Expression.last.id
     first_generated_expression_id = rand(init_num..last_num)
     second_generated_expression_id = rand(init_num..last_num)
-    # stores a random expretion into a variable
+    # stores a random expression into a variable
     @expressionsample = Expression.find_by_id(first_generated_expression_id)
-    @expressionsample = @expressionsample.definition
+    @random_sentence = @expressionsample.sentence
+    @random_definition = @expressionsample.definition
     # display two definition (one correct, one incorrect)
     @expressionsample_2 = Expression.find_by_id(second_generated_expression_id)
-    @expressionsample_2 = @expressionsample_2.definition
+    @random_option = @expressionsample_2.definition
+    # randomize the order of the definitions
+    @shuffled_options = [@random_definition, @random_option].shuffle
+    # listen to the user's click
 
-    @shuffled_options = [@expressionsample, @expressionsample_2].shuffle
     # if user clicks on correct definition, add 1 point to score
     @new_score = Score.new(:points => 0)
     @new_score.save
     @points = @new_score.points
-
+    # listen to the user's click
     right_answer_click = params[first_generated_expression_id]
     wrong_answer_click = params[second_generated_expression_id]
+    # if user clicks on correct definition, add 1 point to score
     if right_answer_click.present?
       @points += 1
       @points.save
