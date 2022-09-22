@@ -7,6 +7,7 @@ class QuizzesController < ApplicationController
   def new
     @quiz = Quiz.new
     # generate a number betweem first and last expresion id
+
     init_num = Expression.first.id
     last_num = Expression.last.id
     first_generated_expression_id = rand(init_num..last_num)
