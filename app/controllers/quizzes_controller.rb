@@ -5,6 +5,7 @@ class QuizzesController < ApplicationController
   end
 
   def new
+    user_signed_in?
     @quiz = Quiz.new
     # generate a number betweem first and last expresion id
 
