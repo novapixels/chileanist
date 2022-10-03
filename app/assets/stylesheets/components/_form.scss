@@ -1,0 +1,9 @@
+input.form-control {
+  border: none;
+  background-color: #f1ecc32b;
+  &:focus {
+    border-bottom: 1px solid $primary;
+    box-shadow: none;
+    background-color: #f1ecc32b;
+  }
+}
